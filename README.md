@@ -50,7 +50,7 @@ This uses
 		# for base Stellaris as well as testing the curated mod pack. Incompatible or outdated mods may fall off the list or be integrated into the main mod.
 
 # CURATED MOD PACK #
-	Steam Workshop Collection (STABLE): 
+	Steam Workshop Collection (STABLE): https://steamcommunity.com/sharedfiles/filedetails/?id=3224663500
 	This pack is STABLE but for increased stability, only download StarNet and StarTech:
 		StarNet AI
 		#	https://steamcommunity.com/sharedfiles/filedetails/?id=1712760331
