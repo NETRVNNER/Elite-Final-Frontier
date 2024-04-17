@@ -1,0 +1,209 @@
+EFFIMP = {
+	category = "Humanoid"
+	randomized = no
+	alias = "Human"
+	#This is a name list for the Empire. Houses Duval, Lavingy, Lampeter were all taken from Elite: Dangerous senator surnames.
+	#Army names just use default stellaris human names.
+	# Ships
+	ship_names = {
+
+		corvette = {
+			"Legacy" "Lance" "Blade" "Arrow" "Spear" "Shield" "Dagger" "Gunship" "Javelin" "Bolt" "Steel" "Trident" "Durandal" "Mace"
+		}
+
+		destroyer = {
+			"Wrath" "Fury" "Vindicator" "Retaliator" "Anger" "Hate" "Rage" "Apathy" "Acrimony" "Passion" 
+		}
+
+		cruiser = {
+			"Dominion" "Supremacy" "Authority" "Sovereign" "Discipline" "Charge" "Restraint" "Rule" "Force" "Power" "Superiority" "Control" "Sway"
+		}
+
+		battleship = {
+			"Triumph" "Grandeur" "Victory" "Magnate" "Exultation" "Jubilation" "Exultance" "Pride" "Joy" "Elation" "Jubilee" "Celebration" "Honor" "Faith"
+		}
+
+		titan = {
+			"Conquest" "Monarch" "Regency" "Invasion" "Occupation" "Rout" "Takeover" "Subjuctator" "Kingmaker" "Soverign" "Majesty" "Nobility" "Bronze"
+		}
+
+		colossus = {
+			"Annihilator" "Devastator" "Oblivion" "Ruination" "Clapper" "Death" "Omen" "Song" "Devourer" "Desolator" "Darkness" "Ruiner" "Ravager" "Silver"
+		}
+
+		juggernaut = {
+			"Emperor" "Duval" "Lavingy" "Lampeter" "Jansen" "Minerva" "Torval" "Patreus" "Roche" "Magnus" "Tyburn" "Mastopolos" "Tesreau" "Gold"
+		}
+
+		constructor = {
+			"Duval's Architect" "Lavingy's Builder" "Lampeter's Engineer" "Jansen's Designer" "Minerva's Worker" "Torval Mining Ltd" "Patreus' Peon" "Lombardo's Servant" "Roche's Tasker" "Magnus' Tech" "Tyburn's Starchitect" "Mastopolos Mining" "Tesreau's Clinker" "Blaine Inc."
+		}
+
+		colonizer = {
+			"Duval's Pioneer" "Lavingy's Settler" "Lampeter's Explorer" "Jansen's Pathfinder" "Minerva's Pioneer" "Torval's Slaveship" "Patreus' Service" "Lombardo's Wish" "Roche's Colonizer" "Magnus' Expansion" "Tyburn's Next Move" "Mastopolos' Homeship" "Tesreau's Sail" "Blaine's Step"
+		}
+
+		sponsored_colonizer = {
+			"Duval's Envoy" "Lavingy's Emissary" "Lampeter's Ambassador" "Jansen's Diplomat" "Minerva's Convoy" "Torval's Horde" "Patreus' Host" "Lombardo's Ship" "Roche's Vessel" "Magnus' Personal Starship" "Tyburn's Shuttle" "Mastopolos' Ship" "Tesreau's SpaceSailer" "Blaine's Step-Ladder"
+		}
+
+		science = {
+			"Duval's Discoverer" "Lavingy's Scholar" "Lampeter's Researcher" "Jansen's Observer" "Minerva's Analyser" "Torval's Detector" "Patreus' Revelator" "Lombardo's Explorer" "Roche's Encounter" "Magnus' Introduction" "Tyburn's Locator" "Mastopolos' Searcher" "Tesreau's Studyboat" "Blaine's Empiricism"
+		}
+
+		transport = {
+			"Duval's Hauler" "Lavingy's Convoy" "Lampeter's Transporter" "Jansen's Freight" "Type 1 Light" "Type 1 Heavy" "Type 2 Light" "Type 2 Heavy" "Type 3 Light" "Type 3 Heavy" "Type 4 Light" "Type 4 Heavy" "Type 5 Light" "Type 5 Heavy" "Type 6 Light" "Type 6 Heavy" "Type 7 Light" "Type 7 Heavy" "Type 8 Light" "Type 8 Heavy" "Type 9 Light" "Type 9 Heavy" "Type 10 Light" "Type 10 Heavy"
+		}
+
+		military_station_small = {
+			"Duval's Sentinel" "Lavingy's Bastion" "Lampeter's Outpost" "Jansen's Watchtower"
+		}
+
+		ion_cannon = {
+			"Duval's Ionizer" "Lavingy's Disruptor" "Lampeter's Annihilator" "Jansen's Havoc"
+		}
+	}
+	
+	fleet_names = { 
+		#sequential_name = HUMAN1_FLEET
+		random_names = {
+		"Imperial Armada" "Emperor's Vanguard" "Loyalist Fleet" "Conquest Armada" "Patriot Flotilla" "Sovereign Guard" "Regal Fleet" "Dominion Armada" "Imperial Fleet" "Pride Fleet" "Grand Armada" "Triumphant Legion" "Royal Fleet" "Supremacy Flotilla" "Emperor's Honor Fleet" "Sentinel Armada" "Viceroy's Vanguard" "Imperator's Fleet" "Imperial Squadron" "Sovereign's Fleet" "Duval's Armada" "Lavingy's Fleet" "Lampeter's Squadron" "Jansen's Armada" "Minerva's Fleet" "Torval's Armada" "Patreus's Fleet" "Lombardo's Armada" "Roche's Fleet" "Magnus' Squadron" "Tyburn's Fleet" "Mastopolos's Armada" "Tesreau's Fleet" "Blaine Squadron"
+		} 
+	}
+	
+	army_names = {
+
+		machine_defense = {
+			sequential_name = HUMAN1_PLANETARYGUARD
+		}
+
+		machine_assault_1 = {
+			sequential_name = HUMAN1_EXPEDITIONARYFORCE
+		}
+
+		machine_assault_2 = {
+			sequential_name = HUMAN1_EXPEDITIONARYFORCE
+		}
+
+		machine_assault_3 = {
+			sequential_name = HUMAN1_EXPEDITIONARYFORCE
+		}
+
+		defense_army = {
+			sequential_name = HUMAN1_PLANETARYGUARD
+		}
+
+		assault_army = {
+			sequential_name = HUMAN1_EXPEDITIONARYFORCE
+		}
+
+		slave_army = {
+			sequential_name = HUMAN1_INDENTUREDRIFLES
+		}
+
+		clone_army = {
+			sequential_name = HUMAN1_CLONEARMY
+		}
+
+		undead_army = {
+			sequential_name = HUMAN1_DREADCOMMANDO
+		}
+
+		robotic_army = {
+			sequential_name = HUMAN1_HUNTERKILLERGROUP
+		}
+
+		robotic_defense_army = {
+			sequential_name = HUMAN1_GROUNDDEFENSEMATRIX
+		}
+
+		psionic_army = {
+			sequential_name = HUMAN1_PSICOMMANDO
+		}
+
+		xenomorph_army = {
+			sequential_name = HUMAN1_BIOWARFAREDIVISION
+		}
+
+		gene_warrior_army = {
+			random_names = {
+				HUMAN1_ARMY_SARC-AGladiators HUMAN1_ARMY_SARC-BWidowmakers HUMAN1_ARMY_SARC-CImmortals HUMAN1_ARMY_SARC-DBerserkers HUMAN1_ARMY_SARC-EAssassins
+				HUMAN1_ARMY_SARC-FReapers HUMAN1_ARMY_SARC-GNighthawks HUMAN1_ARMY_SARC-HDesperados HUMAN1_ARMY_SARC-IGreyKnights HUMAN1_ARMY_SARC-JRoughnecks
+			}
+			sequential_name = HUMAN1_BIOENGINEEREDSQUADRON
+		}
+
+		occupation_army = {
+			sequential_name = HUMAN1_GARRISONFORCE
+		}
+
+		robotic_occupation_army = {
+			sequential_name = HUMAN1_MECHANIZEDGARRISON
+		}
+
+		primitive_army = {
+			sequential_name = HUMAN1_PRIMITIVEARMY
+		}
+		industrial_army = {
+			sequential_name = HUMAN1_INDUSTRIALARMY
+		}
+		postatomic_army = {
+			sequential_name = HUMAN1_POSTATOMICARMY
+		}
+	}
+	
+	# Characters (leaders, envoys, etc)
+	character_names = {
+	
+		names1 = {
+			weight = 90
+				first_names_male = {
+					Henson Saik Trasken Hennick Lucius Anders Hender Trasken Olban Gaylen Atticus Hesketh Hengish Baylor Otto Harold Hector Hadrian Aelius Cassius Lysander Quintus Leander Atilla Titus Alaric Thaddeus Caelum Antonio Augustus Claudius Reginald Edmund Alfred Cedric Winston Percival Leo Leopold Maximus Agrippina Marcellus Callum Nikos Dimitrios Leonidas Andreas Perciles Jordi Enric GuillemOriol Carles Pere Aelfric Eadgyth Beornwulf Wulfric Leofrick Ealdred Wulfgar Ealdgyth Eadric Wynflaed Godric Eoin Lachlan Ruairidh Fergus Hamish Olaf Erik Gunnar Knut Gaetano Alejandro Diego Javier Mateo Guillermo Francisco Alberto Luis Konrad Wilhelm
+				}
+				first_names_female = {
+					Arissa Lucretia Aisling Astrid Seraphina Ophelia Isolde Calista Rowena Valeria Aveline Eva Coriander Viola Greta Isabella Anneliese Elsbeth Brigitta Gertrude Camille Claudette Natalya Dmitri Irina Anya Yelena Aurelia Livia Aemilia Beatrice Eleanor Matilda Agatha Edith Prudence Kassandra Iliana Athena Gabriela Laia Alba Sílvia Isla Siobhan Zemina Hilda Catalina Sofia Elena Valentina
+				}
+				second_names = {
+					Duval Lavingy Lampeter Jansen Minerva Torval Patreus Lombardo Roche Magnus Tyburn Mastopolos Tesreau Blaine Cornelius Leopold Tachibana Courcelle Leatrix Gereon Winterstone Nerva Scordato Cartesius Vespasian Torquatus
+				}
+				regnal_first_names_male = {
+					Henson Saik Trasken Hennick Lucius Anders Hender Trasken Olban Gaylen Atticus Hesketh Hengish Baylor Otto Harold Hector Hadrian Aelius Cassius Lysander Quintus Leander Atilla Titus Alaric Thaddeus Caelum Antonio Augustus Claudius Reginald Edmund Alfred Cedric Winston Percival Leo Leopold Maximus Agrippina Marcellus Callum Nikos Dimitrios Leonidas Andreas Perciles Jordi Enric GuillemOriol Carles Pere Aelfric Eadgyth Beornwulf Wulfric Leofrick Ealdred Wulfgar Ealdgyth Eadric Wynflaed Godric Eoin Lachlan Ruairidh Fergus Hamish Olaf Erik Gunnar Knut Gaetano Alejandro Diego Javier Mateo Guillermo Francisco Alberto Luis Konrad Wilhelm
+				}
+				regnal_first_names_female = {
+					Arissa Lucretia Aisling Astrid Seraphina Ophelia Isolde Calista Rowena Valeria Aveline Eva Coriander Viola Greta Isabella Anneliese Elsbeth Brigitta Gertrude Camille Claudette Natalya Dmitri Irina Anya Yelena Aurelia Livia Aemilia Beatrice Eleanor Matilda Agatha Edith Prudence Kassandra Iliana Athena Gabriela Laia Alba Sílvia Isla Siobhan Zemina Hilda Catalina Sofia Elena Valentina
+				}
+				regnal_second_names = {
+					Duval Lavingy Lampeter Jansen Minerva Torval Patreus Lombardo Roche Magnus Tyburn Mastopolos Tesreau Blaine Cornelius Leopold Tachibana Courcelle Leatrix Gereon Winterstone Nerva Scordato Cartesius Vespasian Torquatus
+				}
+		}
+		names2 = {
+			weight = 10
+				first_names_male = {
+					Henson Saik Trasken Hennick Lucius Anders Hender Trasken Olban Gaylen Atticus Hesketh Hengish Baylor Otto Harold Hector Hadrian Aelius Cassius Lysander Quintus Leander Atilla Titus Alaric Thaddeus Caelum Antonio Augustus Claudius Reginald Edmund Alfred Cedric Winston Percival Leo Leopold Maximus Agrippina Marcellus Callum Nikos Dimitrios Leonidas Andreas Perciles Jordi Enric GuillemOriol Carles Pere Aelfric Eadgyth Beornwulf Wulfric Leofrick Ealdred Wulfgar Ealdgyth Eadric Wynflaed Godric Eoin Lachlan Ruairidh Fergus Hamish Olaf Erik Gunnar Knut Gaetano Alejandro Diego Javier Mateo Guillermo Francisco Alberto Luis Konrad Wilhelm
+				}
+				first_names_female = {
+					Arissa Lucretia Aisling Astrid Seraphina Ophelia Isolde Calista Rowena Valeria Aveline Eva Coriander Viola Greta Isabella Anneliese Elsbeth Brigitta Gertrude Camille Claudette Natalya Dmitri Irina Anya Yelena Aurelia Livia Aemilia Beatrice Eleanor Matilda Agatha Edith Prudence Kassandra Iliana Athena Gabriela Laia Alba Sílvia Isla Siobhan Zemina Hilda Catalina Sofia Elena Valentina
+				}
+				second_names = {
+					Duval-Lavingy Duval-Lampeter Duval-Jansen Duval-Minerva Duval-Torval Duval-Patreus Duval-Lombardo Duval-Roche Duval-Magnus Duval-Tyburn Duval-Mastopolos Duval-Tesreau Duval-Blaine Lavingy-Duval Lavingy-Lampeter Lavingy-Jansen Lavingy-Minerva Lavingy-Torval Lavingy-Patreus Lavingy-Lombardo Lavingy-Roche Lavingy-Magnus Lavingy-Tyburn Lavingy-Mastopolos Lavingy-Tesreau Lavingy-Blaine Lampeter-Duval Lampeter-Lavingy Lampeter-Jansen Lampeter-Minerva Lampeter-Torval Lampeter-Patreus Lampeter-Lombardo Lampeter-Roche Lampeter-Magnus Lampeter-Tyburn Lampeter-Mastopolos Lampeter-Tesreau Lampeter-Blaine Jansen-Duval Jansen-Lampeter Jansen-Lavingy Jansen-Minerva Jansen-Torval Jansen-Patreus Jansen-Lombardo Jansen-Roche Jansen-Magnus Jansen-Tyburn Jansen-Mastopolos Jansen-Tesreau Jansen-Blaine Minerva-Duval Minerva-Lavingy Minerva-Lampeter Minerva-Jansen Minerva-Torval Minerva-Patreus Minerva-Lombardo Minerva-Roche Minerva-Magnus Minerva-Tyburn Minerva-Mastopolos Minerva-Tesreau Minerva-Blaine Torval-Duval Torval-Lavingy Torval-Lampeter Torval-Jansen Torval-Minerva Torval-Patreus Torval-Lombardo Torval-Roche Torval-Magnus Tyburn Torval-Mastopolos Torval-Tesreau Torval-Blaine Patreus-Duval Patreus-Lavingy Patreus-Lampeter Patreus-Jansen Patreus-Minerva Patreus-Torval Patreus-Lombardo Patreus-Roche Patreus-Magnus Patreus-Tyburn Patreus-Mastopolos Patreus-Tesreau Patreus-Blaine Lombardo-Duval Lombardo-Lavingy Lombardo-Lampeter Lombardo-Jansen Lombardo-Minerva Lombardo-Torval Lombardo-Patreus Lombardo-Roche Lombardo-Magnus Lombardo-Tyburn Lombardo-Mastopolos Lombardo-Tesreau Lombardo-Blaine Roche-Duval Roche-Lavingy Roche-Lampeter Roche-Jansen Roche-Minerva Roche-Torval Roche-Patreus Roche-Lombardo Roche-Magnus Roche-Tyburn Roche-Mastopolos Roche-Tesreau Roche-Blaine Magnus-Duval Magnus-Lavingy Magnus-Lampeter Magnus-Jansen Magnus-Minerva Magnus-Torval Magnus-Patreus Magnus-Lombardo Magnus-Roche Magnus-Tyburn Magnus-Mastopolos Magnus-Tesreau Magnus-Blaine Tyburn-Duval Tyburn-Lavingy Tyburn-Lampeter Tyburn-Jansen Tyburn-Minerva Tyburn-Torval Tyburn-Patreus Tyburn-Lombardo Tyburn-Roche Tyburn-Magnus Tyburn-Mastopolos Tyburn-Tesreau Tyburn-Blaine Mastopolos-Duval Mastopolos-Lavingy Mastopolos-Lampeter Mastopolos-Jansen Mastopolos-Minerva Mastopolos-Toval Mastopolos-Patreus Mastopolos-Lombardo Mastopolos-Roche Mastopolos-Magnus Mastopolos-Tyburn Mastopolos-Tesreau Mastopolos-Blaine Tesreau-Duval Tesreau-Lavingy Tesreau-Lampeter Tesreau-Jansen Tesreau-Minerva Tesreau-Torval Tesreau-Patreus Tesreau-Lombardo Tesreau-Roche Tesreau-Magnus Tesreau-Tyburn Tesreau-Mastopolos Tesreau-Blaine Blaine-Duval Blaine-Lavingy Blaine-Lampeter Blaine-Jansen Blaine-Minerva Blaine-Torval Blaine-Patreus Blaine-Lombardo Blaine-Roche Blaine-Magnus Blaine-Tyburn Blaine-Mastopolos Blaine-Tesreau
+				}
+				regnal_first_names_male = {
+					Henson Saik Trasken Hennick Lucius Anders Hender Trasken Olban Gaylen Atticus Hesketh Hengish Baylor Otto Harold Hector Hadrian Aelius Cassius Lysander Quintus Leander Atilla Titus Alaric Thaddeus Caelum Antonio Augustus Claudius Reginald Edmund Alfred Cedric Winston Percival Leo Leopold Maximus Agrippina Marcellus Callum Nikos Dimitrios Leonidas Andreas Perciles Jordi Enric GuillemOriol Carles Pere Aelfric Eadgyth Beornwulf Wulfric Leofrick Ealdred Wulfgar Ealdgyth Eadric Wynflaed Godric Eoin Lachlan Ruairidh Fergus Hamish Olaf Erik Gunnar Knut Gaetano Alejandro Diego Javier Mateo Guillermo Francisco Alberto Luis Konrad Wilhelm
+				}
+				regnal_first_names_female = {
+					Arissa Lucretia Aisling Astrid Seraphina Ophelia Isolde Calista Rowena Valeria Aveline Eva Coriander Viola Greta Isabella Anneliese Elsbeth Brigitta Gertrude Camille Claudette Natalya Dmitri Irina Anya Yelena Aurelia Livia Aemilia Beatrice Eleanor Matilda Agatha Edith Prudence Kassandra Iliana Athena Gabriela Laia Alba Sílvia Isla Siobhan Zemina Hilda Catalina Sofia Elena Valentina
+				}
+				regnal_second_names = {
+					Duval-Lampeter Duval-Jansen Duval-Minerva Duval-Torval Duval-Patreus Duval-Lombardo Duval-Roche Duval-Magnus Duval-Tyburn Duval-Mastopolos Duval-Tesreau Duval-Blaine Lavingy-Duval Lavingy-Lampeter Lavingy-Jansen Lavingy-Minerva Lavingy-Torval Lavingy-Patreus Lavingy-Lombardo Lavingy-Roche Lavingy-Magnus Lavingy-Tyburn Lavingy-Mastopolos Lavingy-Tesreau Lavingy-Blaine Lampeter-Duval Lampeter-Lavingy Lampeter-Jansen Lampeter-Minerva Lampeter-Torval Lampeter-Patreus Lampeter-Lombardo Lampeter-Roche Lampeter-Magnus Lampeter-Tyburn Lampeter-Mastopolos Lampeter-Tesreau Lampeter-Blaine Jansen-Duval Jansen-Lampeter Jansen-Lavingy Jansen-Minerva Jansen-Torval Jansen-Patreus Jansen-Lombardo Jansen-Roche Jansen-Magnus Jansen-Tyburn Jansen-Mastopolos Jansen-Tesreau Jansen-Blaine Minerva-Duval Minerva-Lavingy Minerva-Lampeter Minerva-Jansen Minerva-Torval Minerva-Patreus Minerva-Lombardo Minerva-Roche Minerva-Magnus Minerva-Tyburn Minerva-Mastopolos Minerva-Tesreau Minerva-Blaine Torval-Duval Torval-Lavingy Torval-Lampeter Torval-Jansen Torval-Minerva Torval-Patreus Torval-Lombardo Torval-Roche Torval-Magnus Tyburn Torval-Mastopolos Torval-Tesreau Torval-Blaine Patreus-Duval Patreus-Lavingy Patreus-Lampeter Patreus-Jansen Patreus-Minerva Patreus-Torval Patreus-Lombardo Patreus-Roche Patreus-Magnus Patreus-Tyburn Patreus-Mastopolos Patreus-Tesreau Patreus-Blaine Lombardo-Duval Lombardo-Lavingy Lombardo-Lampeter Lombardo-Jansen Lombardo-Minerva Lombardo-Torval Lombardo-Patreus Lombardo-Roche Lombardo-Magnus Lombardo-Tyburn Lombardo-Mastopolos Lombardo-Tesreau Lombardo-Blaine Roche-Duval Roche-Lavingy Roche-Lampeter Roche-Jansen Roche-Minerva Roche-Torval Roche-Patreus Roche-Lombardo Roche-Magnus Roche-Tyburn Roche-Mastopolos Roche-Tesreau Roche-Blaine Magnus-Duval Magnus-Lavingy Magnus-Lampeter Magnus-Jansen Magnus-Minerva Magnus-Torval Magnus-Patreus Magnus-Lombardo Magnus-Roche Magnus-Tyburn Magnus-Mastopolos Magnus-Tesreau Magnus-Blaine Tyburn-Duval Tyburn-Lavingy Tyburn-Lampeter Tyburn-Jansen Tyburn-Minerva Tyburn-Torval Tyburn-Patreus Tyburn-Lombardo Tyburn-Roche Tyburn-Magnus Tyburn-Mastopolos Tyburn-Tesreau Tyburn-Blaine Mastopolos-Duval Mastopolos-Lavingy Mastopolos-Lampeter Mastopolos-Jansen Mastopolos-Minerva Mastopolos-Toval Mastopolos-Patreus Mastopolos-Lombardo Mastopolos-Roche Mastopolos-Magnus Mastopolos-Tyburn Mastopolos-Tesreau Mastopolos-Blaine Tesreau-Duval Tesreau-Lavingy Tesreau-Lampeter Tesreau-Jansen Tesreau-Minerva Tesreau-Torval Tesreau-Patreus Tesreau-Lombardo Tesreau-Roche Tesreau-Magnus Tesreau-Tyburn Tesreau-Mastopolos Tesreau-Blaine Blaine-Duval Blaine-Lavingy Blaine-Lampeter Blaine-Jansen Blaine-Minerva Blaine-Torval Blaine-Patreus Blaine-Lombardo Blaine-Roche Blaine-Magnus Blaine-Tyburn Blaine-Mastopolos Blaine-Tesreau
+				}
+		}
+	}
+	planet_names = {
+
+		generic = {
+			names = {
+				Jade Emerald Mestra Daedalion Chione Neaera Eurcyleia Anticlea Ampithea Ruby "Mathew's Hole" "Coates's Mine" "Peters's Wreck" "New America" Topaz "Kosmala Rewards" "New California" Likopo Doolhof Diamond Sapphire Aquamarine Amethyst Garnet Peridot Opal Turquoise Citrine Tanzanite Tourmaline "Lapis Lazuli"  Moonstone Pearl Alexandrite Agate Onyx Quartz Spinel Zircon Coral Hematite Malachite Labradorite Kunzite Rhodochrosite Rhodonite Carnelian Chrysoberyl Chrysocolia Sardonyx Sunstone Iolite Apatite Morganite Sard "Anderson's Haven" "Sullivan's Oasis" "Thompson's Rift" "Baker's Outpost" "Clarke's Refuge" "Taylor's Frontier" "Mitchell's Horizon" "Roger's Expanse" "Foster's Mirage" "Hayes's Sanctuary" "Newman's Dominion" "Turner's Odyssey" "Murphy's Legacy" "Carter's Utopia" "Morgan's Asylum" "Reynold's Nexus" "Griffin's Labyrinth" "Wallace's Citadel" "Riley's Pinnacle" "Haye's Dominion" "Duval's Pride" "Lavingy's Echo" "Lampeter's Veil" "Jansen's Cascade" "Minerva's Halo" "Torval's Ephemera" "Patreus's Haven" "Lombardo's Nexus" "Roche's Respite" "Magnus's Twilight" "Tyburn's Celestia" "Mastopolos's Mirage" "Tesreau's Pinnacle" "Blaine's Zephyr" "Cornelius's Sanctuary" "Tachibana's Ember" "Courcelle's Serenity" "Leatrix's Sable" "Fort Gereon" "New Europa" "New Olympus" "New Arcadia" "New Avalon" "New Eden" "Silver Mt. Zion"
+			}
+		}
+	}
+}

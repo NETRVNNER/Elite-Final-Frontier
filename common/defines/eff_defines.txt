@@ -1,0 +1,46 @@
+#rh_defines.txt originally provided in the Slow Expansion and Exploration mod, these values are tweaked to ensure Elite lore accuracy.
+	NGameplay = {
+		START_YEAR = 2136
+		VICTORY_YEAR_DEFAULT = 1165
+		VICTORY_YEAR_MAX = 1165
+		VICTORY_YEAR_MIN = 100
+		VICTORY_YEAR_SLIDER_INTERVAL = 100
+		CONSTRUCTION_SHIP_WORK_SPEED_MULT = 0.50
+		SCIENCE_SHIP_SURVEY_SPEED_MULT = 0.35
+		SCIENCE_SHIP_ANOMALY_RESEARCH_DAYS = { 
+			40		#9 levels above anomaly
+			48		#8 levels above anomaly
+			60		#7 levels above anomaly
+			70		#6 levels above anomaly
+			90		#5 levels above anomaly
+			110		#4 levels above anomaly
+			130		#3 levels above anomaly
+			160		#2 levels above anomaly
+			200		#1 level above anomaly
+			240		#0 level equal to anomaly
+			369 	#1 level below anomaly
+			600		#2 levels below anomaly
+			1080	#3 levels below anomaly
+			1440	#4 levels below anomaly
+			2160	#5 levels below anomaly
+			2880	#6 levels below anomaly
+			4320	#7 levels below anomaly
+			5760	#8 levels below anomaly
+			11520	#9 levels below anomaly
+		}
+
+		BASE_SURVEY_TIME		= 45.0
+	}
+	#NShip = {
+	#	HYPERDRIVE_INTERSTELLAR_TRAVEL_SPEED = 0.5
+	#}
+	NEconomy = {
+		EXPANSION_COST_BASE = 150
+		EXPANSION_COST_DISTANCE = 100
+
+		MAX_EXPANSION_DISTANCE = 1
+		MAX_EXPANSION_DISTANCE_SUBJECT = 1
+
+		CLAIM_COST_BASE = 150
+	
+	}
