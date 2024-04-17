@@ -95,7 +95,7 @@ This uses
 		UI Orange Overhaul Dynamic (3/3) #
 		#	https://steamcommunity.com/sharedfiles/filedetails/?id=2581396461
 		Elite: Final Frontier Alternate Music Pack (will remove E:FF OST)
-		#
+		#	https://steamcommunity.com/sharedfiles/filedetails/?id=3224616803
 	
 	Experimental Gameplay Mods:
 	# BE ADVISED THAT THESE MODS MAY BE OUT OF DATE OR UNSTABLE #
