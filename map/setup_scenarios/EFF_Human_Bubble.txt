@@ -1,0 +1,223 @@
+##################################################################
+# THE HUMAN BUBBLE by NETRVNNER				(eff_)				    #
+##################################################################
+static_galaxy_scenario = {
+	name = "The Human Bubble"
+	priority = 1
+	colonizable_planet_odds = 1
+	num_empires = { min = 0 max = 1 }	#limits player customization
+	num_empire_default = 1
+	fallen_empire_default = 0
+	fallen_empire = { min = 0 max = 0 }
+	marauder_empire_default = 0
+	advanced_empire = { min = 0 max = 0 }
+	advanced_empire_default = 0
+	random_hyperlanes = yes
+	crisis_strength = 1
+	primitive_odds = 0
+system = { id = "1" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "2" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "3" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "4" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "5" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "6" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "7" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "8" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "9" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "10" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "11" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "12" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "13" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "14" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "15" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "16" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "17" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "18" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "19" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "20" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "21" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "22" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "23" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "24" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "25" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "26" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "27" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "28" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "29" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "30" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "31" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "32" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "33" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "34" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "35" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "36" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "37" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "38" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "39" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "40" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "41" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "42" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "43" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "44" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "45" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "46" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "47" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "48" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "49" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "50" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "51" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "52" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "53" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "54" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "55" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "56" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "57" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "58" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "59" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "60" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "61" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "62" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "63" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "64" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "65" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "66" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "67" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "68" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "69" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "70" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "71" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "72" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "73" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "74" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "75" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "76" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "77" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "78" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "79" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "80" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "81" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "82" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "83" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "84" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "85" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "86" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "87" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "88" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "89" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "90" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "91" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "92" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "93" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "94" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "95" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "96" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "97" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "98" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "99" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "100" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "101" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "102" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "103" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "104" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "105" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "106" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "107" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "108" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "109" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "110" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "111" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "112" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "113" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "114" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "115" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "116" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "117" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "118" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "119" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "120" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "121" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "122" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "123" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "124" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "125" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "126" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "127" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "128" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "129" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "130" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "131" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "132" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "133" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "134" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "135" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "136" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "137" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "138" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "139" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "140" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "141" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } }
+system = { id = "142" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "143" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "144" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "145" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "146" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { id = "147" position = { x = { min = -250 max = 250} y = { min = -200 max = 200} } } 
+system = { name = "Sol" position = { x = 0 y =  0 z = 0 } spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = human_3 } } }
+#system = { position = { x = -71 y = -531 z = -138  } initializer = mw_antares_initializer }
+system = { position = { x = 0 y = 3 z = 11  } initializer = eff_tau_ceti_initializer }
+system = { position = { x = -8 y = -14 z = 10  } initializer = eff_delta_pavonis_initializer }
+system = { position = { x = -15 y = -10 z = 15  } initializer = eff_beta_hydri_initializer }
+system = { position = { x = -12 y = -11 z = -3  } initializer = eff_altair_initializer }
+#system = { position = { x = 0 y = 0 } initializer = mw_sagittarius_a_initializer }
+system = { position = { x = -68 y = -24 z = 119 } spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = eff_empire } } } #ACHENAR
+#system = { position = { x = -386 y = 360 z = -682 } initializer = eff_rigel_system_initializer } 
+system = { position = { x = -49 y = -6  z = 104 } initializer = eff_eotienses_initializer } 
+system = { position = { x = -3 y = -12  z = -34 } initializer = eff_arcturus_initializer }
+#system = { position = { x = -846 y = 544 } initializer = mw_beta_doradus_initializer }
+system = { position = { x = -75  y = -71 z = -48 } initializer = eff_lave_initializer } 
+system = { position = { x = -72  y = -69 z = -49 } initializer = eff_leesti_system_initializer }
+system = { position = { x = -80 y = -69 z = -48 } initializer = eff_zaonce_system_initializer }
+system = { position = { x = -82 y = -68  z = -49 } initializer = eff_tionisla_system_initializer }
+system = { position = { x = -72 y = -70  z = -49 } initializer = eff_diso_system_initializer }
+system = { position = { x = -79 y = -74  z = -60 } initializer = eff_teorge_system_initializer }
+system = { position = { x = -6 y = 6  z = 1 } initializer = eff_sirius_system_initializer }
+system = { position = { x = 33 y = 21  z = -72 } initializer = eff_alioth_system_initializer }
+system = { position = { x = -128 y = -84 z = 155 } initializer = eff_cubeo_system_initializer }
+system = { position = { x = 24 y = -52  z = 104 } initializer = eff_prism_system_initializer }
+system = { position = { x = -66 y = -27 z = 105  } initializer = eff_cemiess_system_initializer }
+system = { position = { x = -110 y = 13 z = 99  } initializer = eff_kamadhenu_system_initializer }
+system = { position = { x = -51 y = -29 z = 76  } initializer = eff_synteini_system_initializer }
+system = { position = { x = -64 y = -25 z = 111  } initializer = eff_facece_system_initializer }
+system = { position = { x = -57 y = -333 z = -341  } initializer = eff_quince_system_initializer }
+system = { position = { x = -46 y = 127 z = 448  } initializer = eff_fehu_system_initializer }
+system = { position = { x = -174 y = -12 z = -7  } initializer = eff_velniat_system_initializer }
+#system = { position = { x = -500 y = 0 } initializer = eff_col_285_system_initializer }
+system = {  position = { x = -125 y = -303 z = 36  } initializer = eff_hip_83506_system_initializer }
+system = { position = { x = 2 y = -22 z = 264  } initializer = eff_shu_babassi_system_initializer }
+system = { position = { x = 10 y = 207 z = 2  } initializer = eff_pand_system_initializer }
+#system = { name = "HIP 26761"  position = { x = -12 y = 184 z = -8  } initializer = eff_hip_26761_system_initializer }
+system = { position = { x = -38 y = 35 z = -60  } initializer = eff_regulus_system_initializer }
+system = { position = { x = 21 y = -9 z = -8  } initializer = eff_vega_system_initializer }
+system = { position = { x = 12 y = 40 z = 3  } initializer = eff_capella_system_initializer }
+system = { position = { x = -6 y = 47 z = -20  } initializer = eff_castor_system_initializer }
+#system = { position = { x = -6 y = -13 z = 30 } initializer = eff_pollux_system_initializer }
+system = { position = { x = -1 y = 62 z = 22  } initializer = eff_aldebaran_system_initializer }
+system = { position = { x = -131 y = 83 z = 157  } initializer = eff_hip_20024_system_initializer }
+system = { position = { x = -20 y = 142 z = 52  } }
+#HIP 12099
+system = { position = { x = -157 y = -7 z = 129  } initializer = eff_r_doradus_system_initializer }
+system = { position = { x = -123 y = 49 z = 6  } initializer = eff_xinca_system_initializer }
+system = { position = { x = 73 y = -39 z = -70  } initializer = eff_eta_herculis_system_initializer }
+#system = { name = "Concordia"  position = { x = -20 y = -142 z = 52  } initializer = eff_concordia_system_initializer }
+#system = { name = "Robigo"  position = { x = 303 y = 314 z = -7  } initializer = eff_robigo_system_initializer }
+system = { position = { x = -110 y = -41 z = 113  } initializer = eff_shanteneri_system_initializer }
+system = { position = { x = 154 y = 20 z = 54  } initializer = eff_mora_system_initializer }
+system = { position = { x = 53 y = 96 z = 144  } initializer = eff_obassi_osaw_system_initializer }
+system = { position = { x = -276 y = 42 z = 131  } initializer = eff_canopus_system_initializer }
+system = { position = { x = 20 y = -60 z = 5  } initializer = eff_clayakarma_system_initializer }
+system = { position = { x = 11 y = 1 z = -77  } initializer = eff_gateway_system_initializer }
+system = { position = { x = 43 y = 78 z = 64  } initializer = eff_lembava_system_initializer }
+system = { position = { x = 79 y = 33 z = 87  } initializer = eff_polevnic_system_initializer }
+system = { position = { x = -58 y = -29 z = -22  } initializer = eff_rhea_system_initializer }
+#Hyades Sector DR-V c2-23
+}

@@ -1,0 +1,2 @@
+#empty so it doesn't come up. If you want to generate default stellaris galaxies delete tiny, small, medium, large, and huge .txt files
+#beware, the Human Bubble and Final Frontier are embedded in the Spiral galaxy type and it's pretty finnicky to find.

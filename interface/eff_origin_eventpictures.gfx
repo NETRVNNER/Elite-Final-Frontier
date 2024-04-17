@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_origin_eff_federation"
+		texturefile = "gfx/event_pictures/origins/eff_fed_origin_picture.dds"
+		alwaystransparent = yes
+	}
+}

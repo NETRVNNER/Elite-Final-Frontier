@@ -1,0 +1,60 @@
+song = {
+	name = "Tuning"
+}
+song = {
+	name = "Survey"
+}
+song = {
+	name = "Fog"
+}
+song = {
+	name = "Generation"
+}
+song = {
+	name = "Yearn (Reprise)"
+}
+song = {
+	name = "Dirge"
+}
+song = {
+	name = "Discovery"
+}
+song = {
+	name = "Tension"
+}
+song = {
+	name = "Listen"
+}
+song = {
+	name = "Liftoff"
+}
+song = {
+	name = "Distance"
+}
+song = {
+	name = "Palace"
+}
+song = {
+	name = "Veil (Reprise)"
+}
+song = {
+	name = "Moon"
+}
+song = {
+	name = "Star"
+}
+song = {
+	name = "Uncharted"
+}
+song = {
+	name = "Magic"
+}
+song = {
+	name = "Dock"
+}
+song = {
+	name = "Suspension"
+}
+song = {
+	name = "Phoenix"
+}
