@@ -51,9 +51,11 @@ This uses
 
 # CURATED MOD PACK #
 	Steam Workshop Collection (STABLE): https://steamcommunity.com/sharedfiles/filedetails/?id=3224663500
+ 	Simplified Chinese localisation available here: https://steamcommunity.com/sharedfiles/filedetails/?id=3108330591
 	This pack is STABLE but for increased stability, only download StarNet and StarTech:
 		StarNet AI
 		#	https://steamcommunity.com/sharedfiles/filedetails/?id=1712760331
+  		#	https://github.com/OldEnt/stellaris-starnet-ai
 		StarTech AI
 		#	https://steamcommunity.com/sharedfiles/filedetails/?id=2494712590
 	Download the following for gameplay:
