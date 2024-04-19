@@ -88,8 +88,6 @@ This uses
 		#	https://steamcommunity.com/sharedfiles/filedetails/?id=2888119865
 		Real Space - Colour Out of the Deep (realistic skyboxes)
 		#	https://steamcommunity.com/sharedfiles/filedetails/?id=1918281610
-		Real Space - Ships in Scaling
-		#	https://steamcommunity.com/sharedfiles/filedetails/?id=1915620447
 		UI Overhaul Dynamic (1/3)
 		#	https://steamcommunity.com/sharedfiles/filedetails/?id=907051931
 		UI Orange (2/3) #Orange for a Federal, Cyan for Imperial.
@@ -109,6 +107,8 @@ This uses
 		#	https://steamcommunity.com/sharedfiles/filedetails/?id=1455861246
 		Frameshift Drive & Supercruise
 		#	https://steamcommunity.com/sharedfiles/filedetails/?id=1392217800
+  		Real Space - Ships in Scaling
+		#	https://steamcommunity.com/sharedfiles/filedetails/?id=1915620447
 
 
 # HOW TO PLAY #
