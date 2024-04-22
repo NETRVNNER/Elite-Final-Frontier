@@ -1604,7 +1604,7 @@ eff_alioth_system_initializer = {
 
 eff_synteini_system_initializer = {
 	name = "Synteini"
-	class = "sc_m"
+	class = "sc_binary_6"
 
 	planet = {
 		name = "Synteini A"
@@ -2468,7 +2468,7 @@ eff_hip_83506_system_initializer = {
 
 eff_castor_system_initializer = {
 	name = "Castor"
-	class = "sc_a"
+	class = "sc_binary_1"
 	
 	planet = {
 		name = "Castor"
@@ -2529,7 +2529,7 @@ eff_castor_system_initializer = {
 # Aldebaran
 eff_aldebaran_system_initializer = {
 	name = "Aldebaran"
-	class = "sc_k"
+	class = "sc_binary_7"
 	
 	planet = {
 		name = "Aldebaran"
@@ -2801,7 +2801,7 @@ eff_regulus_system_initializer = {
 # Vega
 eff_vega_system_initializer = {
 	name = "Vega"
-	class = "sc_a"
+	class = "sc_binary_5"
 	
 	planet = {
 		name = "Vega"
@@ -4854,7 +4854,7 @@ eff_cubeo_system_initializer = {
 
 eff_sirius_system_initializer = {
 	name = "Sirius"
-	class = "sc_a"
+	class = "sc_binary_10"
 
 	planet = {
 		name = "Sirius"
@@ -5238,7 +5238,7 @@ eff_sagittarius_a_initializer = {
 # Colonia
 eff_colonia_system_initializer = {
 	name = "Eol Prou RS-T d3-94"
-	class = "sc_f"
+	class = "sc_trinary_3"
 	asteroid_belt = {
 		type = rocky_asteroid_belt
 		radius = 355
