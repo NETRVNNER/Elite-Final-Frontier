@@ -1,0 +1,100 @@
+music = {
+	name = "Tuning"
+	file = "effa01_Tuning.ogg"
+	volume = 1
+}
+music = {
+	name = "Survey"
+	file = "effa02_Survey.ogg"
+	volume = 1
+}
+music = {
+	name = "Fog"
+	file = "effa03_Fog.ogg"
+	volume = 1
+}
+music = {
+	name = "Generation"
+	file = "effa04_Generation.ogg"
+	volume = 1
+}
+music = {
+	name = "Yearn (Reprise)"
+	file = "effa05_Yearn_Reprise.ogg"
+	volume = 1
+}
+music = {
+	name = "Dirge"
+	file = "effa06_Dirge.ogg"
+	volume = 1
+}
+music = {
+	name = "Discovery"
+	file = "effa07_Discovery.ogg"
+	volume = 1
+}
+music = {
+	name = "Tension"
+	file = "effa08_Tension.ogg"
+	volume = 1
+}
+music = {
+	name = "Listen"
+	file = "effa09_Listen.ogg"
+	volume = 1
+}
+music = {
+	name = "Liftoff"
+	file = "effa10_Liftoff.ogg"
+	volume = 1
+}
+music = {
+	name = "Distance"
+	file = "effa11_Distance.ogg"
+	volume = 1
+}
+music = {
+	name = "Palace"
+	file = "effa12_Palace.ogg"
+	volume = 1
+}
+music = {
+	name = "Veil (Reprise)"
+	file = "effa13_Veil_Reprise.ogg"
+	volume = 1
+}
+music = {
+	name = "Moon"
+	file = "effa14_Moon.ogg"
+	volume = 1
+}
+music = {
+	name = "Star"
+	file = "effa15_Star.ogg"
+	volume = 1
+}
+music = {
+	name = "Uncharted"
+	file = "effa16_Uncharted.ogg"
+	volume = 1
+}
+music = {
+	name = "Magic"
+	file = "effa17_Magic.ogg"
+	volume = 1
+}
+music = {
+	name = "Dock"
+	file = "effa18_Dock.ogg"
+	volume = 1
+}
+music = {
+	name = "Suspension"
+	file = "effa19_Suspension.ogg"
+	volume = 1
+}
+music = {
+	name = "Phoenix"
+	file = "effa20_Phoenix.ogg"
+	volume = 1
+}
