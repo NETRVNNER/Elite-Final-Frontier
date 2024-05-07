@@ -1,0 +1,7 @@
+iconType = {
+	name = "eff_logo"
+	position = { x = 30 y = 0 }
+	quadTextureSprite = "GFX_eff_logo"
+	Orientation = "UPPER_CENTER"
+	scale = 0.275
+}
