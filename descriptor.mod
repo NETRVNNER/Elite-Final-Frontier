@@ -1,7 +1,7 @@
-version="0.1"
+version="1.2"
 tags={
 	"Total Conversion"
 }
 name="Elite: Final Frontier"
 picture="thumbnail.png"
-supported_version="3.11.*"
+supported_version="3.12.1"
