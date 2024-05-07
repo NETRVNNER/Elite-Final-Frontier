@@ -1,8 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_main_menu_button_175"
-		texturefile = "gfx/interface/buttons/button_main_menu_new.dds"
-		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
-		noOfFrames = 3	
-	}
-}
