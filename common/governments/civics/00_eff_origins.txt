@@ -21,12 +21,11 @@ eff_origin_federal_ascension = {
 	
 	modifier = {
 		terraforming_cost_mult = -0.35
-		planet_jobs_upkeep_mult = -0.05
-		pc_nuked_habitability = 0.20
-		planet_buildings_energy_upkeep_mult = -0.10
-		planet_livestock_produces_mult = -0.05
-		planet_structures_cost_mult = 0.05
-	#	planet_pops_energy_upkeep_mult = -0.35
+		planet_jobs_upkeep_mult = -0.1
+		pc_nuked_habitability = 0.2
+		country_claim_influence_cost_mult = 0.15
+		planet_structures_cost_mult = 0.15
+		planet_structures_upkeep_mult = -0.1
 	}
 }
 
@@ -50,15 +49,15 @@ eff_origin_imperial_pride = {
 	description = eff_origin_imperial_pride_effects
 
 	modifier = {
-		planet_jobs_produces_mult = -0.05
-		pop_growth_speed_reduction = 0.2
-		planet_stability_add = -5
-		pop_amenities_usage_mult = 0.2
+		planet_jobs_produces_mult = -0.15
+		pop_growth_speed_reduction = 0.5
+		planet_stability_add = -10
+		pop_amenities_usage_mult = 0.25
 	#	country_base_food_produces_add = -15
 	#	country_base_energy_produces_add = -25
 	#	planet_buildings_energy_upkeep_mult = 0.1
 	#	planet_pops_energy_upkeep_mult = 0.3
-		ships_upkeep_mult = 0.1
+		ships_upkeep_mult = 0.05
 		planet_structures_upkeep_mult = 0.05
 	}
 }
