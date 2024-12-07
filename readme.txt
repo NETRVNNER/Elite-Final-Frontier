@@ -16,8 +16,6 @@ This uses
 	Milky Way Unleashed #(https://steamcommunity.com/sharedfiles/filedetails/?id=715772239)
 		by ositodefelpa
 			(that has to be a kotor reference)
-	Main Menu Redesigned #(https://steamcommunity.com/sharedfiles/filedetails/?id=3046835486)
-		by Fountain
 	and is inspired by
 		Star Wars: Legacy of the Old Republic #(https://steamcommunity.com/sharedfiles/filedetails/?id=2791119024)
 			by Renegades Modding Group
