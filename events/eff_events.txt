@@ -165,90 +165,130 @@ country_event = {
 # }
 
 #Forbidden Planet event
-# country_event = {
-# 	id = elitefinalfrontier.42
-# 	title = elitefinalfrontier.42.name
-# 	desc = elitefinalfrontier.42.desc
-# 	picture = GFX_evt_ship_in_orbit_2
-# 	location = root
-# 	auto_opens = yes
-#	
-# 	pre_triggers = {
-# 		has_planet_flag = planet_forbidden
-# 	}
-#
-# 	is_triggered_only = yes
-#	
-# 	immediate = {
-# 		set_global_flag = forbidden1
-# 		set_planet_flag = planet_forbidden1
-# 	}
-#	
-# 	option = {
-# 		name = elitefinalfrontier.42.a
-# 		hidden_effect = { 
-# 			country_event = { id = elitefinalfrontier.43 days = 7 } 
-# 		}
-# 	}
-#	
-# 	option = {
-# 		name = elitefinalfrontier.42.b
-# 	}
-# }
-# country_event = {
-# 	id = elitefinalfrontier.43
-# 	title = elitefinalfrontier.43.name
-# 	desc = elitefinalfrontier.43.desc
-# 	picture = GFX_evt_crashed_station
-# 	location = root
-# 	auto_opens = yes
-#	
-# 	is_triggered_only = yes
-#	
-# 	option = {
-# 		name = elitefinalfrontier.43.a
-# 		hidden_effect = { 
-# 			country_event = { id = elitefinalfrontier.44 } 
-# 		}
-# 	}
-# 	option = {
-# 		name = elitefinalfrontier.43.b
-# 	}
-# }
-# country_event = {
-# 	id = elitefinalfrontier.44
-# 	title = elitefinalfrontier.44.name
-# 	desc = elitefinalfrontier.44.desc
-# 	picture = GFX_evt_desert
-# 	location = root
-# 	auto_opens = yes
-#
-# 	is_triggered_only = yes
-#	
-# 	option = {
-# 		name = elitefinalfrontier.44.a
-# 		hidden_effect = { 
-# 			country_event = { id = elitefinalfrontier.45 } 
-# 		}
-# 	}
-# 	option = {
-# 		name = elitefinalfrontier.44.b
-# 	}
-# }
-# country_event = {
-# 	id = elitefinalfrontier.45
-# 	title = elitefinalfrontier.45.name
-# 	desc = elitefinalfrontier.45.desc
-# 	picture = GFX_evt_desert
-# 	location = root
-# 	auto_opens = yes
-#
-# 	is_triggered_only = yes
-#
-# 	option = {
-# 		name = elitefinalfrontier.45.a
-# 		hidden_effect = { 
-#			country_event = { id = elitefinalfrontier.46 } 
-#		}
-# 	}
-# }
+ country_event = {
+ 	id = elitefinalfrontier.42
+ 	title = elitefinalfrontier.42.name
+ 	desc = elitefinalfrontier.42.desc
+ 	picture = GFX_evt_ship_in_orbit_2
+ 	location = root
+ 	auto_opens = yes
+	
+ 	pre_triggers = {
+ 		has_planet_flag = planet_forbidden
+ 	}
+
+ 	is_triggered_only = yes
+	
+ 	immediate = {
+ 		set_global_flag = forbidden1
+ 		set_planet_flag = planet_forbidden1
+ 	}
+	
+ 	option = {
+ 		name = elitefinalfrontier.42.a
+ 		hidden_effect = { 
+ 			country_event = { id = elitefinalfrontier.43 days = 7 } 
+ 		}
+ 	}
+	
+ 	option = {
+ 		name = elitefinalfrontier.42.b
+ 	}
+ }
+ country_event = {
+ 	id = elitefinalfrontier.43
+ 	title = elitefinalfrontier.43.name
+ 	desc = elitefinalfrontier.43.desc
+ 	picture = GFX_evt_crashed_station
+ 	location = root
+ 	auto_opens = yes
+	
+ 	is_triggered_only = yes
+	
+ 	option = {
+ 		name = elitefinalfrontier.43.a
+ 		hidden_effect = { 
+ 			country_event = { id = elitefinalfrontier.44 } 
+ 		}
+ 	}
+ 	option = {
+ 		name = elitefinalfrontier.43.b
+ 	}
+ }
+ country_event = {
+ 	id = elitefinalfrontier.44
+ 	title = elitefinalfrontier.44.name
+ 	desc = elitefinalfrontier.44.desc
+ 	picture = GFX_evt_desert
+ 	location = root
+ 	auto_opens = yes
+
+ 	is_triggered_only = yes
+	
+ 	option = {
+ 		name = elitefinalfrontier.44.a
+ 		hidden_effect = { 
+ 			country_event = { id = elitefinalfrontier.45 } 
+ 		}
+ 	}
+ 	option = {
+ 		name = elitefinalfrontier.44.b
+ 	}
+ }
+ country_event = {
+ 	id = elitefinalfrontier.45
+ 	title = elitefinalfrontier.45.name
+ 	desc = elitefinalfrontier.45.desc
+ 	picture = GFX_evt_desert
+ 	location = root
+ 	auto_opens = yes
+
+ 	is_triggered_only = yes
+
+ 	option = {
+ 		name = elitefinalfrontier.45.a
+ 		hidden_effect = { 
+			country_event = { id = elitefinalfrontier.46 } 
+		}
+ 	}
+ }
+ country_event = {
+	id = elitefinalfrontier.46
+	title = elitefinalfrontier.46.name
+	desc = elitefinalfrontier.46.desc
+	picture = GFX_evt_desert
+	location = root
+	auto_opens = yes
+
+	is_triggered_only = yes
+   
+	option = {
+		name = elitefinalfrontier.46.a
+		hidden_effect = { 
+			country_event = { id = elitefinalfrontier.47 } 
+		}
+	}
+	option = {
+		name = elitefinalfrontier.46.b
+	}
+}
+country_event = {
+	id = elitefinalfrontier.47
+	title = elitefinalfrontier.47.name
+	desc = elitefinalfrontier.47.desc
+	picture = GFX_evt_desert
+	location = root
+	auto_opens = yes
+
+	is_triggered_only = yes
+   
+	option = {
+		name = elitefinalfrontier.47.a
+		hidden_effect = { 
+			country_event = { id = elitefinalfrontier.48 } 
+		}
+	}
+	option = {
+		name = elitefinalfrontier.47.b
+	}
+}

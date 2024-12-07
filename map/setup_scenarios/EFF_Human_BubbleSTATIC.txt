@@ -1,0 +1,148 @@
+##################################################################
+# THE HUMAN BUBBLE (Static) by NETRVNNER				(eff_)				    #
+##################################################################
+static_galaxy_scenario = {
+	name = "Human Bubble (Static)"
+	priority = 1
+	colonizable_planet_odds = 1
+	num_empires = { min = 0 max = 1 }	#limits player customization
+	num_empire_default = 1
+	fallen_empire_default = 0
+	fallen_empire = { min = 0 max = 0 }
+	marauder_empire_default = 0
+	advanced_empire = { min = 0 max = 0 }
+	advanced_empire_default = 0
+	random_hyperlanes = yes
+	crisis_strength = 1
+	primitive_odds = 0
+system = { name = "Sol" position = { x = 0 y =  0 z = 0 } spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = human_3 } } }
+#system = { position = { x = -71 y = -531 z = -138  } initializer = mw_antares_initializer }
+system = { position = { x = 0 y = 3 z = 11  } initializer = eff_tau_ceti_initializer }
+system = { position = { x = -8 y = -14 z = 10  } initializer = eff_delta_pavonis_initializer }
+system = { position = { x = -15 y = -10 z = 15  } initializer = eff_beta_hydri_initializer }
+system = { position = { x = -12 y = -11 z = -3  } initializer = eff_altair_initializer }
+#system = { position = { x = 0 y = 0 } initializer = mw_sagittarius_a_initializer }
+system = { position = { x = -68 y = -24 z = 119 } spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = eff_empire } } } #ACHENAR
+#system = { position = { x = -386 y = 360 z = -682 } initializer = eff_rigel_system_initializer } 
+system = { position = { x = -49 y = -6  z = 104 } initializer = eff_eotienses_initializer } 
+system = { position = { x = -3 y = -12  z = -34 } initializer = eff_arcturus_initializer }
+#system = { position = { x = -846 y = 544 } initializer = mw_beta_doradus_initializer }
+system = { position = { x = -75  y = -71 z = -48 } initializer = eff_lave_initializer } 
+system = { position = { x = -72  y = -69 z = -49 } initializer = eff_leesti_system_initializer }
+system = { position = { x = -80 y = -69 z = -48 } initializer = eff_zaonce_system_initializer }
+system = { position = { x = -82 y = -68  z = -49 } initializer = eff_tionisla_system_initializer }
+system = { position = { x = -72 y = -70  z = -49 } initializer = eff_diso_system_initializer }
+system = { position = { x = -79 y = -74  z = -60 } initializer = eff_teorge_system_initializer }
+system = { position = { x = -6 y = 6  z = 1 } initializer = eff_sirius_system_initializer }
+system = { position = { x = 33 y = 21  z = -72 } initializer = eff_alioth_system_initializer }
+system = { position = { x = -128 y = -84 z = 155 } initializer = eff_cubeo_system_initializer }
+system = { position = { x = 24 y = -52  z = 104 } initializer = eff_prism_system_initializer }
+system = { position = { x = -66 y = -27 z = 105  } initializer = eff_cemiess_system_initializer }
+system = { position = { x = -110 y = 13 z = 99  } initializer = eff_kamadhenu_system_initializer }
+system = { position = { x = -51 y = -29 z = 76  } initializer = eff_synteini_system_initializer }
+system = { position = { x = -64 y = -25 z = 111  } initializer = eff_facece_system_initializer }
+system = { position = { x = -57 y = -333 z = -341  } initializer = eff_quince_system_initializer }
+system = { position = { x = -46 y = 127 z = 448  } initializer = eff_fehu_system_initializer }
+system = { position = { x = -174 y = -12 z = -7  } initializer = eff_velniat_system_initializer }
+#system = { position = { x = -500 y = 0 } initializer = eff_col_285_system_initializer }
+system = {  position = { x = -125 y = -303 z = 36  } initializer = eff_hip_83506_system_initializer }
+system = { position = { x = 2 y = -22 z = 264  } initializer = eff_shu_babassi_system_initializer }
+system = { position = { x = 10 y = 207 z = 2  } initializer = eff_pand_system_initializer }
+#system = { name = "HIP 26761"  position = { x = -12 y = 184 z = -8  } initializer = eff_hip_26761_system_initializer }
+system = { position = { x = -38 y = 35 z = -60  } initializer = eff_regulus_system_initializer }
+system = { position = { x = 21 y = -9 z = -8  } initializer = eff_vega_system_initializer }
+system = { position = { x = 12 y = 40 z = 3  } initializer = eff_capella_system_initializer }
+system = { position = { x = -6 y = 47 z = -20  } initializer = eff_castor_system_initializer }
+#system = { position = { x = -6 y = -13 z = 30 } initializer = eff_pollux_system_initializer }
+system = { position = { x = -1 y = 62 z = 22  } initializer = eff_aldebaran_system_initializer }
+system = { position = { x = -131 y = 83 z = 157  } initializer = eff_hip_20024_system_initializer }
+system = { position = { x = -157 y = -7 z = 129  } initializer = eff_r_doradus_system_initializer }
+system = { position = { x = -123 y = 49 z = 6  } initializer = eff_xinca_system_initializer }
+system = { position = { x = 73 y = -39 z = -70  } initializer = eff_eta_herculis_system_initializer }
+#system = { name = "Concordia"  position = { x = -20 y = -142 z = 52  } initializer = eff_concordia_system_initializer }
+#system = { name = "Robigo"  position = { x = 303 y = 314 z = -7  } initializer = eff_robigo_system_initializer }
+system = { position = { x = -110 y = -41 z = 113  } initializer = eff_shanteneri_system_initializer }
+system = { position = { x = 154 y = 20 z = 54  } initializer = eff_mora_system_initializer }
+system = { position = { x = 53 y = 96 z = 144  } initializer = eff_obassi_osaw_system_initializer }
+system = { position = { x = -276 y = 42 z = 131  } initializer = eff_canopus_system_initializer }
+system = { position = { x = 20 y = -60 z = 5  } initializer = eff_clayakarma_system_initializer }
+system = { position = { x = 11 y = 1 z = -77  } initializer = eff_gateway_system_initializer }
+system = { position = { x = 43 y = 78 z = 64  } initializer = eff_lembava_system_initializer }
+system = { position = { x = 79 y = 33 z = 87  } initializer = eff_polevnic_system_initializer }
+system = { position = { x = -58 y = -29 z = -22  } initializer = eff_rhea_system_initializer }
+system = { position = { x = 6 y = 59 z = 30  } initializer = eff_fujin_system_initializer }
+system = { position = { x = 81 y = 337 z = 148  } initializer = eff_celaeno_system_initializer }
+system = { position = { x = -4 y = 2 z = -6  } initializer = eff_wolf_359_system_initializer }
+system = { position = { x = 4 y = -4 z = 9  } initializer = eff_ez_aquarii_system_initializer }
+system = { position = { x = 80 y = 333 z = 144  } initializer = eff_asterope_system_initializer }
+system = { position = { x = 319 y = 332 z = 10  } initializer = eff_wredguia_wd_k_d8_65_system_initializer }
+system = { position = { x = -25 y = -38 z = 37  } initializer = eff_matet_system_initializer }
+system = { position = { x = -2 y = 7 z = 8  } initializer = eff_epsilon_eridani_system_initializer }
+system = { position = { x = 82 y = 343 z = 149  } initializer = eff_maia_system_initializer }
+system = { position = { x = -45 y = -26 z = -12  } initializer = eff_v866_centauri_system_initializer }
+system = { position = { x = 7 y = -19 z = 39  } initializer = eff_gliese_868_system_initializer }
+system = { position = { x = -69 y = -18 z = -10  } initializer = eff_timbaldris_system_initializer }
+system = { position = { x = 21 y = -116 z = 6  } initializer = eff_laksak_system_initializer }
+system = { position = { x = -55 y = -27 z = -18  } initializer = eff_shinrarta_dezhra_system_initializer }
+system = { position = { x = 151 y = -78 z = 25  } initializer = eff_upaniklis_system_initializer }
+system = { position = { x = 352 y = 346 z = -11  } initializer = eff_sothis_system_initializer }
+system = { position = { x = 43 y = -56 z = 5  } initializer = eff_lhs_3447_system_initializer }
+system = { position = { x = 303 y = 314 z = 7  } initializer = eff_robigo_system_initializer }
+system = { position = { x = -98 y = -64 z = 87  } initializer = eff_yoru_system_initializer }
+system = { position = { x = -123 y = -3 z = 0  } initializer = eff_borann_system_initializer }
+system = { position = { x = -116 y = -74 z = 153  } initializer = eff_lambda_1_tucanae_system_initializer }
+system = { position = { x = -44 y = -15 z = -27  } initializer = eff_lhs_317_system_initializer }
+system = { position = { x = 74 y = 329 z = 144  } initializer = eff_hip_17692_system_initializer }
+system = { position = { x = 63 y = 319 z = 147  } initializer = eff_delphi_system_initializer }
+system = { position = { x = -58 y = -36 z = -10 } initializer = eff_fong_wang_system_initializer }
+system = { position = { x = 33 y = -83 z = 63 } initializer = eff_gcrv_1568_system_initializer }
+system = { position = { x = 36 y = 15 z = -72 } initializer = eff_alcor_system_initializer }
+system = { position = { x = 101 y = 165 z = 95 } initializer = eff_hip_12099_system_initializer }
+system = { position = { x = 122 y = 47 z = 1 } initializer = eff_deciat_system_initializer }
+system = { position = { x = 328 y = 337 z = -10 } initializer = eff_wredguia_th_u_c16_19_system_initializer }
+system = { position = { x = 171 y = 56 z = -19 } initializer = eff_khun_system_initializer }
+system = { position = { x = -68 y = -35 z = -33 } initializer = eff_delkar_system_initializer }
+system = { position = { x = -66 y = -62 z = -38 } initializer = eff_arque_system_initializer }
+system = { position = { x = -134 y = 7 z = 226 } initializer = eff_kuwemaki_system_initializer }
+system = { position = { x = -11 y = 32 z = 37 } initializer = eff_lhs_20_system_initializer }
+system = { position = { x = -84 y = 2 z = 13 } initializer = eff_barathaona_system_initializer }
+system = { position = { x = 78 y = 340 z = 150 } initializer = eff_merope_system_initializer }
+system = { position = { x = -53 y = -16 z = -12 } initializer = eff_skeggiko_o_system_initializer }
+system = { position = { x = -42 y = -16 z = -25 } initializer = eff_lp_908_11_system_initializer }
+system = { position = { x = -48 y = -285 z = -17 } initializer = eff_nuenets_system_initializer }
+system = { position = { x = -6 y = 10 z = -2 } initializer = eff_luytens_star_system_initializer }
+system = { position = { x = 11 y = 4 z = -32 } initializer = eff_wyrd_system_initializer }
+system = { position = { x = -6 y = -64 z = 183 } initializer = eff_kamitra_system_initializer }
+system = { position = { x = 349 y = 339 z = -14 } initializer = eff_ceos_system_initializer }
+system = { position = { x = 21 y = 16 z = -69 } initializer = eff_kuk_system_initializer }
+system = { position = { x = 3 y = -5 z = -1 } initializer = eff_barnards_star_system_initializer }
+system = { position = { x = 104 y = 152 z = 1 } initializer = eff_hyades_sector_dr_v_c2_23_system_initializer }
+system = { position = { x = -51 y = 30 z = 54 } initializer = eff_eurybia_system_initializer }
+system = { position = { x = -118 y = 97 z = 56 } initializer = eff_meene_system_initializer }
+system = { position = { x = -6 y = -2 z = -1 } initializer = eff_luhman_16_system_initializer }
+system = { position = { x = -40 y = 10 z = -79 } initializer = eff_wolf_397_system_initializer }
+system = { position = { x = 315 y = 318 z = -4 } initializer = eff_wredguia_th_u_c16_19_system_initializer }
+system = { position = { x = -3 y = -7 z = 9 } initializer = eff_epsilon_indi_system_initializer }
+system = { position = { x = 35 y = 20 z = -73 } initializer = eff_78_ursae_majoris_system_initializer }
+system = { position = { x = -10 y = 64 z = 219 } initializer = eff_mainani_system_initializer }
+system = { position = { x = 41 y = 103 z = 62 } initializer = eff_diaguandri_system_initializer }
+system = { position = { x = 2 y = 7 z = -7 } initializer = eff_duamta_system_initializer }
+system = { position = { x = -6 y = 9 z = -3 } initializer = eff_procyon_system_initializer }
+system = { position = { x = 42 y = -59 z = 3 } initializer = eff_eravate_system_initializer }
+system = { position = { x = 13 y = -20 z = 81 } initializer = eff_tarach_tor_system_initializer }
+system = { position = { x = -25 y = -41 z = 31 } initializer = eff_dromi_system_initializer }
+system = { position = { x = -51 y = -30 z = -17 } initializer = eff_lft_926_system_initializer }
+system = { position = { x = 14 y = 15 z = -19 } initializer = eff_nanomam_system_initializer }
+system = { position = { x = -18 y = 62 z = 202 } initializer = eff_aitvas_system_initializer }
+system = { position = { x = -30 y = -58 z = -145 } initializer = eff_chakpa_system_initializer }
+system = { position = { x = 2 y = -9 z = 2 } initializer = eff_ross_154_system_initializer }
+system = { position = { x = -2 y = 9 z = -6 } initializer = eff_spf_lf_1_system_initializer }
+system = { position = { x = 8 y = 61 z = 220 } initializer = eff_ngalinn_system_initializer }
+system = { position = { x = -17 y = 3 z = 173 } initializer = eff_muang_system_initializer }
+system = { position = { x = -9 y = 114 z = -15 } initializer = eff_hyades_sector_db_x_d1_112_system_initializer }
+system = { position = { x = 327 y = 332 z = -5 } initializer = eff_wredguia_th_u_c16_18_system_initializer }
+system = { position = { x = -65 y = -25 z = -18 } initializer = eff_bunda_system_initializer }
+system = { position = { x = -27 y = -69 z = -153 } initializer = eff_ochosi_system_initializer }
+system = { position = { x = -157 y = 70 z = 27 } initializer = eff_jacksons_lighthouse_system_initializer }
+system = { position = { x = -1 y = -33 z = -11 } initializer = eff_parutis_system_initializer }
+}

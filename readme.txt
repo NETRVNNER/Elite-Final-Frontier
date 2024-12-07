@@ -24,17 +24,16 @@ This uses
 
 # FEATURES #
 
-	* Two custom galaxy maps, The Human Bubble and The Final Frontier
-	* Two custom empires, the Federation and the Empire
-	* Two custom origins with two hardcore variations
-	* A custom namelist for the Empire
+	* 2 custom galaxy maps, The Human Bubble (3 and The Final Frontier
+	* 2 custom empires, the Federation and the Empire
+	* 2 custom origins with two hardcore variations
+	* 1 custom namelist for the Empire
 	* 1 custom event (foundational for future updates)
 	* Slower more expensive expansion, and 2136 start date.
-	* 49 custom star systems based on the Elite: Dangerous universe
+	* 130 custom star systems based on the Elite: Dangerous universe
 	* Custom start screen messages for Federation and Empire
 	* 20 custom songs clocking over an hour over.
 	* 20 loading screens from Elite: Dangerous concept art
-	* Custom main menu using Fountain's redesign.
 	* Curated and compatible mod pack
 	* Ability to add your own mods
 
@@ -43,7 +42,9 @@ This uses
 	* Playable Thargoid expansion mod 
 		# requires Utopia https://www.paradoxinteractive.com/games/stellaris/add-ons/stellaris-utopia as well as Real Space https://steamcommunity.com/sharedfiles/filedetails/?id=937289339
 	* Planned lore-friendly custom events 
-		# still too new to event design to have all of them completed and functional, help would be lovely)
+		# Slowly getting there
+	* Low Poly Shipset
+		# based on Frontier: Elite 2 and Frontier: First Encounters
 	* Balance updates
 		# external feedback is required for balancing Feds and Imps.
 	* Compatibility updates
@@ -94,7 +95,7 @@ This uses
 		#	https://steamcommunity.com/sharedfiles/filedetails/?id=907051931
 		UI Orange Overhaul Dynamic (3/3) #
 		#	https://steamcommunity.com/sharedfiles/filedetails/?id=2581396461
-		Elite: Final Frontier Alternate Music Pack (will remove E:FF OST)
+		Elite: Final Frontier Alternate Music Pack (will remove E:FF OST when set below on the load order)
 		#
 	
 	Experimental Gameplay Mods:
@@ -117,8 +118,8 @@ This uses
 	PLAY to open game.
 	Select your faction, or create a new faction
 	Set the rules for galaxy generation. Defaults have been set to "lore-friendly" but the following options are recommended:
-		Galaxy Size: The Final Frontier #(or The Human Bubble)
-		Galaxy Shape: #(should be empty)
+		Galaxy Size: Final Frontier # or Human Bubble (Static, Dynamic or Classic)
+		Galaxy Shape: # should be empty
 		AI empires: 1 #(for singleplayer with an adversary 1, for lore-accurate singleplayer 0, for multiplayer 0)
 		Advanced AI Starts: Off #(doesn't do anything unless you generate more AI empires)
 		Fallen Empires: Off
@@ -283,3 +284,4 @@ This mod will continue to be updated. Largely for compatibility, fixes and balan
 	And that's every directory in a nutshell. There's a lot of help online on Stellaris' wiki and on discord.
 
 # END #
+o7

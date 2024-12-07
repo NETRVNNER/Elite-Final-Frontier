@@ -2,7 +2,7 @@
 # THE HUMAN BUBBLE by NETRVNNER				(eff_)				    #
 ##################################################################
 static_galaxy_scenario = {
-	name = "The Human Bubble"
+	name = "Human Bubble (Classic)"
 	priority = 1
 	colonizable_planet_odds = 1
 	num_empires = { min = 0 max = 1 }	#limits player customization

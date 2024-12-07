@@ -21,7 +21,7 @@ eff_origin_federal_ascension = {
 	
 	modifier = {
 		terraforming_cost_mult = -0.35
-		planet_jobs_upkeep_mult = -0.1
+		planet_jobs_upkeep_mult = -0.15
 		pc_nuked_habitability = 0.2
 		country_claim_influence_cost_mult = 0.15
 		planet_structures_cost_mult = 0.15

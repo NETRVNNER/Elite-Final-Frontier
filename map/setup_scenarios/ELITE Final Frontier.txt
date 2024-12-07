@@ -5,10 +5,10 @@
 ##################################################################
 
 static_galaxy_scenario = {
-	name = "The Final Frontier"
+	name = "Final Frontier"
 	priority = 1
 	colonizable_planet_odds = 1
-	num_empires = { min = 0 max = 1 }	#limits player customization
+	num_empires = { min = 0 max = 3 }	#limits player customization
 	num_empire_default = 1
 	fallen_empire_default = 0
 	fallen_empire = { min = 0 max = 0 }
