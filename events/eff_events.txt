@@ -22,6 +22,10 @@ planet_event = {
 	}
 
 	trigger = {
+		owner = {
+			NOT = { has_country_flag = eff_empire }
+			has_country_flag = "human_3"
+		}
 		NOR = {
 			has_global_flag = tc1_global
 			has_global_flag = tc2_global
@@ -64,6 +68,10 @@ country_event = {
 	auto_opens = yes
 	
 	trigger = {
+		owner = {
+			NOT = { has_country_flag = eff_empire }
+			has_country_flag = "human_3"
+		}
 		has_global_flag = tc1_global
 		NOR = {
 			has_global_flag = tc2_global
