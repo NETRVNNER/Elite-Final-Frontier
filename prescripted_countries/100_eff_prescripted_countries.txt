@@ -1,4 +1,4 @@
-human_3=
+"Federation"=
 {
 	key="Federation"
 	ship_prefix=
@@ -55,7 +55,7 @@ human_3=
 	authority="auth_democratic"
 	flags=
 	{
-		"human_3"
+		"eff_federation"
 		"custom_start_screen"
 	}
 	government="gov_direct_democracy"

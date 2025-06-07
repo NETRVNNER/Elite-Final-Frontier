@@ -1201,14 +1201,14 @@ system = { id = "1178" name = "" position = { x = { min = -30 max = -20 } y =  {
 system = { id = "1179" name = "" position = { x = { min = -5 max = 5 } y =  { min = -85 max = -75 } }  }
 system = { id = "1180" name = "" position = { x = { min = 20 max = 30 } y =  { min = -81 max = -71 } }  }
 system = { id = "1181" name = "" position = { x = { min = 71 max = 81 } y =  { min = -30 max = -20 } }  }
-system = { id = "1182" name = "Sol" position = { x = { min = 0 max = 0 } y =  { min = 295 max = 295 } z = 0 } spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = human_3 } } }
+system = { position = { x = 0 y =  295 z = 0 } initializer = eff_sol_initializer spawn_design = "Federation" }
 system = { position = { x = -1 y = 275 } initializer = mw_antares_initializer }
 system = { position = { x = 1 y = 296 z = 11 } initializer = eff_tau_ceti_initializer }
 system = { position = { x = -3 y = 291 z = 10 } initializer = eff_delta_pavonis_initializer }
 system = { position = { x = -8 y = 295 z = 15  } initializer = eff_beta_hydri_initializer }
 system = { position = { x = -6 y = 292 z = 3 } initializer = eff_altair_initializer }
 system = { position = { x = 0 y = 0 } initializer = eff_sagittarius_a_initializer }
-system = { position = { x = -27 y = 287 z = 119 } spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = eff_empire } } } #ACHENAR
+system = { position = { x = -27 y = 287 z = 119 } initializer = eff_achenar_system_initializer spawn_design = "Empire" }
 system = { position = { x = -5 y = 310 } initializer = eff_rigel_system_initializer } 
 system = { position = { x = -17 y = 294 z = 104 } initializer = eff_eotienses_initializer } 
 #system = { position = { x = -1 y = 290 } initializer = eff_arcturus_initializer }
