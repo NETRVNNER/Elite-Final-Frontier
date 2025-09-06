@@ -3,14 +3,22 @@ part = {
 	location = 0
 	localization = "START_SCREEN_EFF_FED" #this just calls the localisation file value. If you're looking to change it go there.
 	trigger = {
-		has_country_flag = human_3
+		AND = {
+			has_country_flag = eff_federation
+			has_country_flag = custom_start_screen
+			has_origin = "eff_origin_federal_ascension"
+		}
 	}
 }
 # Empire
 part = {
 	location = 0
-	localization = "START_SCREEN_EFF_IMP" #same with this one.
+	localization = "START_SCREEN_EFF_IMP"
 	trigger = {
-		has_country_flag = eff_empire
+		AND = {
+			has_country_flag = eff_empire
+			has_country_flag = custom_start_screen
+			has_origin = "eff_origin_imperial_pride"
+		}
 	}
 }

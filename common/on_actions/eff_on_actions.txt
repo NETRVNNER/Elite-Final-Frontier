@@ -6,11 +6,3 @@ on_colonized = {
 		#This is generally Tau Ceti 2. Other events in the chain fired wrongly for imperials.
 	}
 }
-
-#  removed this because it crashed. to fix later
-
-# on_system_survey = {
-# 	events = {
-# 		elitefinalfrontier.42
-# 	}
-# }

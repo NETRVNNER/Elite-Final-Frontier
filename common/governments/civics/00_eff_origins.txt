@@ -52,17 +52,17 @@ eff_origin_imperial_pride = {
 	#	planet_jobs_produces_mult = -0.15
 		planet_jobs_upkeep_mult = 0.2
 		bonus_pop_growth_mult = -0.5
-	#	pop_growth_speed_reduction = 0.5
-		planet_stability_add = -15 #was 10
+	#	pop_growth_speed_reduction = 0.5 # DEPRECATED as of v4.0 #
+		planet_stability_add = -20
 		pop_amenities_usage_mult = 0.25
 	#	country_base_food_produces_add = -15
 	#	country_base_energy_produces_add = -25
 	#	planet_buildings_energy_upkeep_mult = 0.1
 	#	planet_pops_energy_upkeep_mult = 0.3
-	#	ships_upkeep_mult = 0.05 REMOVED
-	#	planet_structures_upkeep_mult = 0.05 REMOVED
 		planet_pops_trade_upkeep_mult = 0.3
 		country_cost_mult = 0.3
+	#	ships_upkeep_mult = 0.05
+	#	planet_structures_upkeep_mult = 0.05
 	}
 }
 eff_origin_federal_ascension_hardcore = {
@@ -86,6 +86,15 @@ eff_origin_federal_ascension_hardcore = {
 	
 	starting_colony = pc_nuked
 	
+	modifier = {
+	#	terraforming_cost_mult = -0.35
+		planet_jobs_upkeep_mult = -0.4
+	#	pc_nuked_habitability = 0.1
+		country_claim_influence_cost_mult = 0.25
+		planet_structures_cost_mult = 0.20
+		planet_structures_upkeep_mult = -0.1
+	}
+	
 	#For a true challenge.
 }
 eff_origin_imperial_pride_hardcore = {
@@ -103,6 +112,19 @@ eff_origin_imperial_pride_hardcore = {
 				value = civic_corporate_anglers
 			}
 		}
+	}
+
+	modifier = {
+		planet_jobs_produces_mult = -0.15
+		#pop_growth_speed_reduction = 0.5 # Doesn't work any more since 4.0#
+		planet_stability_add = -50
+		pop_amenities_usage_mult = 0.25
+		country_base_food_produces_add = -15
+		country_base_energy_produces_add = -25
+		planet_buildings_energy_upkeep_mult = 0.1
+		planet_pops_energy_upkeep_mult = 0.3
+		ships_upkeep_mult = 0.07
+		planet_structures_upkeep_mult = 0.07
 	}
 	
 	description = eff_origin_imperial_pride_effects

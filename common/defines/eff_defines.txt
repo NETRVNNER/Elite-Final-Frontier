@@ -29,7 +29,7 @@
 			11520	#9 levels below anomaly
 		}
 
-		BASE_SURVEY_TIME		= 45.0
+		BASE_SURVEY_TIME		= 65.0
 	}
 	#NShip = {
 	#	HYPERDRIVE_INTERSTELLAR_TRAVEL_SPEED = 0.5

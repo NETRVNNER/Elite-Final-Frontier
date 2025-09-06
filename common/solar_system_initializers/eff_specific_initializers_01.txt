@@ -21,7 +21,7 @@ eff_sol_initializer = {
 		radius = 290
 	}
 
-	flags = { empire_home_system sol_system sol }
+	flags = { empire_home_system sol_system sol eff_federation_home }
 
 	usage = custom_empire
 
@@ -87,7 +87,7 @@ eff_sol_initializer = {
 		starting_planet = yes
 		has_ring = no
 		modifiers = none
-		flags = { planet_earth }
+		flags = { planet_earth eff_federation_home_planet }
 
 		init_effect = {
 			save_global_event_target_as = sol_system_earth
@@ -305,7 +305,9 @@ eff_sol_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+	neighbor_system = {
+        initializer = "eff_tau_ceti_initializer"
+    }
 }
 
 # Achenar
@@ -320,7 +322,10 @@ eff_achenar_system_initializer = {
 				set_star_flag = empire_cluster
 			}
 		}
+		generate_home_system_resources = no
 	}
+
+	flags = { empire_home_system achenar_system achenar eff_empire_home }
 
 	planet = {
 		name = "Achenar"
@@ -427,15 +432,19 @@ eff_achenar_system_initializer = {
 			orbit_angle = { min = 90 max = 270 }
 			size = 20
 			starting_planet = yes
-			tile_blockers = none
+			has_ring = no
 			modifiers = none
-			init_effect = {
-				prevent_anomaly = yes
-			}
+			flags = { planet_capitol eff_empire_home_planet }
 
-			init_effect = {
-				generate_start_buildings_and_blockers = yes
-			}
+		init_effect = {
+			save_global_event_target_as = achenar_system_capitol
+
+			prevent_anomaly = yes
+		}
+
+			#init_effect = {
+			#	generate_start_buildings_and_blockers = yes
+			#}
 		}
 	}
 	planet = {
@@ -1539,8 +1548,7 @@ eff_alioth_system_initializer = {
 			orbit_distance = 2.5
 			orbit_angle = { min = 90 max = 270 }
 			size = 14
-			starting_planet = yes
-			tile_blockers = none
+			starting_planet = yes		
 			modifiers = none
 			init_effect = {
 				prevent_anomaly = yes
@@ -1551,7 +1559,7 @@ eff_alioth_system_initializer = {
 					modifier = "terraforming_candidate"
 					days = -1
 				}
-				generate_start_buildings_and_blockers = yes
+				#generate_start_buildings_and_blockers = yes
 			}
 		}
 		moon = {
@@ -3712,7 +3720,7 @@ eff_mora_system_initializer = {
 eff_gateway_system_initializer = {
 	name = "Gateway"
 	class = "sc_k"
-	
+
 	planet = {
 		name = "Gateway"
 		class = "pc_k_star"
@@ -5120,9 +5128,9 @@ eff_xylios_system_initializer = {
 			}
 		}
 		generate_home_system_resources = yes
-		hyperlane_generation = {
-			max_distance = 0
-		}
+		#hyperlane_generation = {
+		#	max_distance = 0
+		#}
 	}
 
 	planet = {
@@ -5189,9 +5197,9 @@ eff_xylios_system_initializer = {
 			size = 12
 			starting_planet = yes
 
-			init_effect = {
-				generate_start_buildings_and_blockers = yes
-			}
+			#init_effect = {
+			#	generate_start_buildings_and_blockers = yes
+			#}
 		}
 		moon = {
 			class = "pc_barren"
@@ -5790,7 +5798,6 @@ eff_beta_hydri_initializer = {
 eff_eotienses_initializer = {
 	name = "Eotienses"
 	class = sc_trinary_1
-	
 	planet = {
 		name = "Eotienses A"
 		class = star
@@ -6808,7 +6815,10 @@ eff_wredguia_wd_k_d8_65_system_initializer = {
 eff_celaeno_system_initializer = {
 	name = "Celaeno"
 	class = "sc_b"
-	asteroids_distance = 80
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 90
+	}
 	planet = {		
 		count = 1	
 		class = "pc_b_star"	
@@ -6838,7 +6848,10 @@ eff_celaeno_system_initializer = {
 eff_wolf_359_system_initializer = {
 	name = "Wolf 359"
 	class = "sc_m"
-	asteroids_distance = 80
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 80
+	}
 	planet = {		
 		count = 1	
 		class = "pc_m_star"	
@@ -6906,6 +6919,15 @@ eff_asterope_system_initializer = {
 eff_maia_system_initializer = {
 	name = "Maia"
 	class = "sc_black_hole"
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		generate_home_system_resources = yes
+	}
 	planet = {
 		name = "Maia A"			
 		class = "pc_b_star"		
@@ -7176,7 +7198,10 @@ eff_maia_system_initializer = {
 eff_matet_system_initializer = {
 	name = "Matet"
 	class = "sc_m"
-	asteroids_distance = 90
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 90
+	}
 	planet = {
 		name = "Matet"
 		count = 1
@@ -7223,7 +7248,10 @@ eff_matet_system_initializer = {
 eff_epsilon_eridani_system_initializer = {
 	name = "Epsilon Eridani"
 	class = sc_k
-	asteroids_distance = 90
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 90
+	}
 	planet = {
 		count = 1
 		class = star
@@ -17427,14 +17455,14 @@ eff_timbaldris_system_initializer = {
 		planet = {
 			name = "Timbalderis AB 1"
 			class = "pc_gas_giant"
-			orbit_distance = 50
+			orbit_distance = 75
 			orbit_angle = { min = 90 max = 270 }
 			size = 36
 			has_ring = yes
 			planet = {
 				name = "Timbalderis AB 1 A"
 				class = "pc_barren_cold"
-				orbit_distance = 25
+				orbit_distance = 15
 				orbit_angle = { min = 90 max = 270 }
 				size = 3
 				has_ring = no
@@ -17514,7 +17542,7 @@ eff_timbaldris_system_initializer = {
 			planet = {
 				name = "Timbalderis AB 3 A"
 				class = "pc_barren_cold"
-				orbit_distance = 15
+				orbit_distance = 5
 				orbit_angle = { min = 90 max = 270 }
 				size = 3
 				has_ring = no
@@ -19236,7 +19264,10 @@ mw_mu_normae_initializer = {
 mw_deneb_initializer = {
 	name = "Deneb"
 	class = "sc_a"
-	asteroids_distance = 90
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 90
+	}
 	planet = {
 		name = "Deneb"
 		class = "pc_a_star"
@@ -20170,7 +20201,10 @@ mw_z_andromedae_initializer = {
 	}		
 			
 	change_orbit = { min = 20 max = 30}		
-	asteroids_distance = { min = 30 max = 90 }		
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 90
+	}	
 	planet = {		
 		Count = { min = 0 max = 5}	
 		orbit_distance = {min = 20 max = 30}	

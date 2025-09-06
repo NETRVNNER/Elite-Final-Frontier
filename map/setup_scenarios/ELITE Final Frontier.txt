@@ -1201,92 +1201,92 @@ system = { id = "1178" name = "" position = { x = { min = -30 max = -20 } y =  {
 system = { id = "1179" name = "" position = { x = { min = -5 max = 5 } y =  { min = -85 max = -75 } }  }
 system = { id = "1180" name = "" position = { x = { min = 20 max = 30 } y =  { min = -81 max = -71 } }  }
 system = { id = "1181" name = "" position = { x = { min = 71 max = 81 } y =  { min = -30 max = -20 } }  }
-system = { position = { x = 0 y =  295 z = 0 } initializer = eff_sol_initializer spawn_design = "Federation" }
-system = { position = { x = -1 y = 275 } initializer = mw_antares_initializer }
-system = { position = { x = 1 y = 296 z = 11 } initializer = eff_tau_ceti_initializer }
-system = { position = { x = -3 y = 291 z = 10 } initializer = eff_delta_pavonis_initializer }
-system = { position = { x = -8 y = 295 z = 15  } initializer = eff_beta_hydri_initializer }
-system = { position = { x = -6 y = 292 z = 3 } initializer = eff_altair_initializer }
-system = { position = { x = 0 y = 0 } initializer = eff_sagittarius_a_initializer }
-system = { position = { x = -27 y = 287 z = 119 } initializer = eff_achenar_system_initializer spawn_design = "Empire" }
-system = { position = { x = -5 y = 310 } initializer = eff_rigel_system_initializer } 
-system = { position = { x = -17 y = 294 z = 104 } initializer = eff_eotienses_initializer } 
-#system = { position = { x = -1 y = 290 } initializer = eff_arcturus_initializer }
-system = { position = { x = -15 y = 300 } initializer = mw_beta_doradus_initializer }
-system = { position = { x = -33	 y = 279 z = -48 } initializer = eff_lave_initializer } 
-#system = { position = { x = -2	 y = 280 } initializer = eff_leesti_system_initializer }
-#system = { position = { x = -8	 y = 288 } initializer = eff_zaonce_system_initializer }
-#system = { position = { x = 2	 y = 282 } initializer = eff_tionisla_system_initializer }
-#system = { position = { x = -3	 y = 285 } initializer = eff_diso_system_initializer }
-system = { position = { x = -30	 y = 274 z = -60 } initializer = eff_teorge_system_initializer }
-system = { position = { x = -4	 y = 298 z = 1 } initializer = eff_sirius_system_initializer }
-system = { position = { x = 14 y = 302 z = -72 } initializer = eff_alioth_system_initializer }
-system = { position = { x = -40 y = 273 z = 155 } initializer = eff_cubeo_system_initializer }
-system = { position = { x = -9 y = 278 z = 104 } initializer = eff_prism_system_initializer }
-system = { position = { x = -26 y = 284 z = 105 } initializer = eff_cemiess_system_initializer }
-system = { position = { x = -18 y = 305 z = 99 } initializer = eff_kamadhenu_system_initializer }
-system = { position = { x = -19 y = 282 z = 76 } initializer = eff_synteini_system_initializer }
-system = { position = { x = -23 y = 282 z = 111 } initializer = eff_facece_system_initializer }
-system = { position = { x = -18 y = 273 z = -341 } initializer = eff_quince_system_initializer }
-system = { position = { x = -33 y = 305 z = 448 } initializer = eff_fehu_system_initializer }
-system = { position = { x = -56 y = 272 } initializer = mw_omicron_centauri_initializer }
-system = { position = { x = 227 y = 256 } initializer = mw_cygnus_x3_initializer }
-system = { position = { x = 147 y = 367 } initializer = mw_6_cassiopeia_initializer }
-system = { position = { x = 34 y = 411 } initializer = mw_cayrels_star_initializer }
-system = { position = { x = -2 y = 206 } initializer = mw_scorpius_x1_initializer }
-system = { position = { x = 44 y = 252 } initializer = mw_r_coronae_borealis_initializer }
-system = { position = { x = 53 y = 324 } initializer = mw_pearces_star_initializer }
-system = { position = { x = 94 y = 104 } initializer = eff_colonia_system_initializer }
-system = { position = { x = 7 y = -529 } initializer = eff_beagle_point_initializer }
-system = { position = { x = -41 y = 325 } initializer = mw_rho_leonis_initializer }
-system = { position = { x = -28 y = 312 } initializer = mw_tau_canis_majoris_initializer }
-system = { position = { x = 41 y = 241 } initializer = mw_35_aquarii_initializer }
-system = { position = { x = 9 y = 306 } initializer = mw_miram_initializer }
-system = { position = { x = -15 y = 286 } initializer = mw_kappa_crucis_initializer }
-system = { position = { x = 23 y = 306 } initializer = mw_rho_cassiopeia_initializer }
-system = { position = { x = -13 y = 311 } initializer = mw_eta_leonis_initializer }
-system = { position = { x = 50 y = 307 } initializer = mw_nu_cephei_initializer }
-system = { position = { x = 59 y = 277 } initializer = mw_cygnus_x1_initializer }
-system = { position = { x = -42 y = 281 } initializer = mw_ag_carinae_initializer }
-system = { position = { x = -26 y = 265 } initializer = mw_delta_circini_initializer }
-system = { position = { x = -12 y = 265 } initializer = mw_mu_normae_initializer }
-system = { position = { x = -72 y = 272 } initializer = mw_foramen_initializer }
-system = { position = { x = -63 y = 254 } initializer = mw_theta_muscae_initializer }
-system = { position = { x = 17 y = 273 } initializer = mw_equator_star_initializer }
-system = { position = { x = -23 y = 340 } initializer = mw_plasketts_star_initializer }
-system = { position = { x = -7 y = 365 } initializer = mw_crab_pulsar_initializer }
-system = { position = { x = -75 y = 302 } initializer = mw_t_antliae_initializer }
-system = { position = { x = 58 y = 353 } initializer = mw_s_persei_initializer }
-system = { position = { x = 1 y = 46 } initializer = mw_pistol_star_initializer }
-system = { position = { x = 35 y = 292 } initializer = mw_sigma_cygni_initializer }
-system = { position = { x = -84 y = 265 } initializer = mw_x_carinae_initializer }
-system = { position = { x = -32 y = 298 } initializer = mw_b_velorum_initializer }
-system = { position = { x = -175 y = 199 } initializer = mw_dl_crucis_initializer }
-system = { position = { x = -141 y = 230 } initializer = mw_tu_muscae_initializer }
-system = { position = { x = 7 y = 366 } initializer = mw_rv_tauri_initializer }
-system = { position = { x = 285 y = 14 } initializer = mw_v1487_aquilae_initializer }
-system = { position = { x = 115 y = 157 } initializer = mw_ss_433_initializer }
-system = { position = { x = 14 y = 289 } initializer = mw_lambda_lyrae_initializer }
-system = { position = { x = 18 y = 292 } initializer = mw_sadr_initializer }
-#system = { position = { x = 16 y = 299 } initializer = mw_deneb_initializer }
-#system = { position = { x = 16 y = 299 } initializer = eff_deneb_initializer }
+system = { id = "1182" name = "Sol" position = { x = { min = 0 max = 0 } y =  { min = 295 max = 295 } z = 0 } initializer = eff_sol_initializer spawn_weight = {base = 0 modifier = { add = 100000 has_country_flag = eff_federation }} spawn_design = "Federation" }
+system = { id = "1183" position = { x = -1 y = 275 } initializer = mw_antares_initializer }
+system = { id = "1184" position = { x = 1 y = 296 z = 11 } initializer = eff_tau_ceti_initializer }
+system = { id = "1185" position = { x = -3 y = 291 z = 10 } initializer = eff_delta_pavonis_initializer }
+system = { id = "1186" position = { x = -8 y = 295 z = 15  } initializer = eff_beta_hydri_initializer }
+system = { id = "1187" position = { x = -6 y = 292 z = 3 } initializer = eff_altair_initializer }
+system = { id = "1188" position = { x = 0 y = 0 } initializer = eff_sagittarius_a_initializer }
+system = { id = "1189" name = "Achenar" position = { x = -27 y = 287 z = 119 } initializer = eff_achenar_system_initializer spawn_weight = {base = 0 modifier = { add = 100000 has_country_flag = eff_empire }} spawn_design = "Empire" }
+system = { id = "1190" position = { x = -5 y = 310 } initializer = eff_rigel_system_initializer } 
+system = { id = "1191" position = { x = -17 y = 294 z = 104 } initializer = eff_eotienses_initializer } 
+#system = { id = "1187"{ x = -1 y = 290 } initializer = eff_arcturus_initializer }
+system = { id = "1192" position = { x = -15 y = 300 } initializer = mw_beta_doradus_initializer }
+system = { id = "1193" position = { x = -33	 y = 279 z = -48 } initializer = eff_lave_initializer } 
+#system = { id = "1187"{ x = -2	 y = 280 } initializer = eff_leesti_system_initializer }
+#system = { id = "1187"{ x = -8	 y = 288 } initializer = eff_zaonce_system_initializer }
+#system = { id = "1187"{ x = 2	 y = 282 } initializer = eff_tionisla_system_initializer }
+#system = { id = "1187"{ x = -3	 y = 285 } initializer = eff_diso_system_initializer }
+system = { id = "1194" position = { x = -30	 y = 274 z = -60 } initializer = eff_teorge_system_initializer }
+system = { id = "1195" position = { x = -4	 y = 298 z = 1 } initializer = eff_sirius_system_initializer }
+system = { id = "1196" position = { x = 14 y = 302 z = -72 } initializer = eff_alioth_system_initializer }
+system = { id = "1197" position = { x = -40 y = 273 z = 155 } initializer = eff_cubeo_system_initializer }
+system = { id = "1198" position = { x = -9 y = 278 z = 104 } initializer = eff_prism_system_initializer }
+system = { id = "1199" position = { x = -26 y = 284 z = 105 } initializer = eff_cemiess_system_initializer }
+system = { id = "1200" position = { x = -18 y = 305 z = 99 } initializer = eff_kamadhenu_system_initializer }
+system = { id = "1201" position = { x = -19 y = 282 z = 76 } initializer = eff_synteini_system_initializer }
+system = { id = "1202" position = { x = -23 y = 282 z = 111 } initializer = eff_facece_system_initializer }
+system = { id = "1203" position = { x = -18 y = 273 z = -341 } initializer = eff_quince_system_initializer }
+system = { id = "1204" position = { x = -33 y = 305 z = 448 } initializer = eff_fehu_system_initializer }
+system = { id = "1205" position = { x = -56 y = 272 } initializer = mw_omicron_centauri_initializer }
+system = { id = "1206" position = { x = 227 y = 256 } initializer = mw_cygnus_x3_initializer }
+system = { id = "1207" position = { x = 147 y = 367 } initializer = mw_6_cassiopeia_initializer }
+system = { id = "1208" position = { x = 34 y = 411 } initializer = mw_cayrels_star_initializer }
+system = { id = "1209" position = { x = -2 y = 206 } initializer = mw_scorpius_x1_initializer }
+system = { id = "1210" position = { x = 44 y = 252 } initializer = mw_r_coronae_borealis_initializer }
+system = { id = "1211" position = { x = 53 y = 324 } initializer = mw_pearces_star_initializer }
+system = { id = "1212" position = { x = 94 y = 104 } initializer = eff_colonia_system_initializer }
+system = { id = "1213" position = { x = 7 y = -529 } initializer = eff_beagle_point_initializer }
+system = { id = "1214" position = { x = -41 y = 325 } initializer = mw_rho_leonis_initializer }
+system = { id = "1215" position = { x = -28 y = 312 } initializer = mw_tau_canis_majoris_initializer }
+system = { id = "1216" position = { x = 41 y = 241 } initializer = mw_35_aquarii_initializer }
+system = { id = "1217" position = { x = 9 y = 306 } initializer = mw_miram_initializer }
+system = { id = "1218" position = { x = -15 y = 286 } initializer = mw_kappa_crucis_initializer }
+system = { id = "1219" position = { x = 23 y = 306 } initializer = mw_rho_cassiopeia_initializer }
+system = { id = "1220" position = { x = -13 y = 311 } initializer = mw_eta_leonis_initializer }
+system = { id = "1221" position = { x = 50 y = 307 } initializer = mw_nu_cephei_initializer }
+system = { id = "1222" position = { x = 59 y = 277 } initializer = mw_cygnus_x1_initializer }
+system = { id = "1223" position = { x = -42 y = 281 } initializer = mw_ag_carinae_initializer }
+system = { id = "1224" position = { x = -26 y = 265 } initializer = mw_delta_circini_initializer }
+system = { id = "1225" position = { x = -12 y = 265 } initializer = mw_mu_normae_initializer }
+system = { id = "1226" position = { x = -72 y = 272 } initializer = mw_foramen_initializer }
+system = { id = "1227" position = { x = -63 y = 254 } initializer = mw_theta_muscae_initializer }
+system = { id = "1228" position = { x = 17 y = 273 } initializer = mw_equator_star_initializer }
+system = { id = "1229" position = { x = -23 y = 340 } initializer = mw_plasketts_star_initializer }
+system = { id = "1230" position = { x = -7 y = 365 } initializer = mw_crab_pulsar_initializer }
+system = { id = "1231" position = { x = -75 y = 302 } initializer = mw_t_antliae_initializer }
+system = { id = "1232" position = { x = 58 y = 353 } initializer = mw_s_persei_initializer }
+system = { id = "1233" position = { x = 1 y = 46 } initializer = mw_pistol_star_initializer }
+system = { id = "1234" position = { x = 35 y = 292 } initializer = mw_sigma_cygni_initializer }
+system = { id = "1235" position = { x = -84 y = 265 } initializer = mw_x_carinae_initializer }
+system = { id = "1236" position = { x = -32 y = 298 } initializer = mw_b_velorum_initializer }
+system = { id = "1237" position = { x = -175 y = 199 } initializer = mw_dl_crucis_initializer }
+system = { id = "1238" position = { x = -141 y = 230 } initializer = mw_tu_muscae_initializer }
+system = { id = "1239" position = { x = 7 y = 366 } initializer = mw_rv_tauri_initializer }
+system = { id = "1240" position = { x = 285 y = 14 } initializer = mw_v1487_aquilae_initializer }
+system = { id = "1241" position = { x = 115 y = 157 } initializer = mw_ss_433_initializer }
+system = { id = "1242" position = { x = 14 y = 289 } initializer = mw_lambda_lyrae_initializer }
+system = { id = "1243" position = { x = 18 y = 292 } initializer = mw_sadr_initializer }
+#system = { id = "1187"{ x = 16 y = 299 } initializer = mw_deneb_initializer }
+#system = { id = "1187"{ x = 16 y = 299 } initializer = eff_deneb_initializer }
 #nebula = { name = "Orion Nebula" position = { x = -6 y = 311 } radius = 25 }
 nebula = { name = "Carina Nebula" position = { x = -77 y = 271 } radius = 25 }
-nebula = { position = { x = { min = -300 max = -200 } y = { min = -450 max = -350 } } radius = 25 }
-nebula = { position = { x = { min = 250 max = 450 } y = { min = -50 max = 50 } } radius = 45 }
-nebula = { position = { x = { min = 50 max = 125 } y = { min = -375 max = -325 } } radius = 45 }
-nebula = { position = { x = { min = 200 max = 300 } y = { min = -400 max = -300 } } radius = 25 }
-nebula = { position = { x = { min = -300 max = -200 } y = { min = 75 max = 75 } } radius = 45 }
-nebula = { position = { x = { min = -200 max = -100 } y = { min = -300 max = -200 } } radius = 55 }
-nebula = { position = { x = { min = 0 max = 100 } y = { min = -300 max = -200 } } radius = 70 }
-nebula = { position = { x = { min = 200 max = 300 } y = { min = -300 max = -200 } } radius = 35 }
-nebula = { position = { x = { min = -450 max = -350 } y = { min = 300 max = 200 } } radius = 25 }
-nebula = { position = { x = { min = -350 max = -250 } y = { min = 300 max = 200 } } radius = 50 }
-nebula = { position = { x = { min = 300 max = 400 } y = { min = 300 max = 200 } } radius = 25 }
+nebula = { position  = { x = { min = -300 max = -200 } y = { min = -450 max = -350 } } radius = 25 }
+nebula = { position  = { x = { min = 250 max = 450 } y = { min = -50 max = 50 } } radius = 45 }
+nebula = { position  = { x = { min = 50 max = 125 } y = { min = -375 max = -325 } } radius = 45 }
+nebula = { position  = { x = { min = 200 max = 300 } y = { min = -400 max = -300 } } radius = 25 }
+nebula = { position  = { x = { min = -300 max = -200 } y = { min = 75 max = 75 } } radius = 45 }
+nebula = { position  = { x = { min = -200 max = -100 } y = { min = -300 max = -200 } } radius = 55 }
+nebula = { position  = { x = { min = 0 max = 100 } y = { min = -300 max = -200 } } radius = 70 }
+nebula = { position  = { x = { min = 200 max = 300 } y = { min = -300 max = -200 } } radius = 35 }
+nebula = { position  = { x = { min = -450 max = -350 } y = { min = 300 max = 200 } } radius = 25 }
+nebula = { position  = { x = { min = -350 max = -250 } y = { min = 300 max = 200 } } radius = 50 }
+nebula = { position  = { x = { min = 300 max = 400 } y = { min = 300 max = 200 } } radius = 25 }
 nebula = { name = "Messier 2 Cluster" position = { x = { min = 289 max = 289 } y = { min = 71 max = 71 } } radius = 25 }
 nebula = { name = "Omega Centauri Cluster" position = { x = { min = -123 max = -123 } y = { min = 186 max = 186 } } radius = 25 }
 nebula = { name = "Messier 15 Cluster" position = { x = 307 y = 153 } radius = 20 }
-nebula = { position = { x = { min = -242 max = -302 } y = { min = 424 max = 444 } } radius = 40 }
+nebula = { position  = { x = { min = -242 max = -302 } y = { min = 424 max = 444 } } radius = 40 }
 nebula = { name = "Sagittarius Arm" position = { x = -339 y = -84 } radius = 50 }
 nebula = { name = "Scutum Centaurus Arm" position = { x = 350 y = -221 } radius = 50 }
 nebula = { name = "Outer Rim" position = { x = 98 y = 453 } radius = 50 }

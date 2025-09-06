@@ -15,7 +15,6 @@ planet_event = {
 		has_owner = yes
 		is_homeworld = no
 		original_owner = yes
-		#is_ai = no
 		has_ground_combat = no
 		is_capital = no
 		is_occupied_flag = no
@@ -77,6 +76,8 @@ country_event = {
 			has_global_flag = tc2_global
 		}
 	}
+
+	is_triggered_only = yes
 	
 	immediate = {
 			set_global_flag = tc2_global
@@ -109,194 +110,5 @@ country_event = {
 				unity = -100
 			}
 		}
-	}
-}
-
-# country_event = {
-# 	id = elitefinalfrontier.3
-#	title = elitefinalfrontier.3.name
-#	desc = elitefinalfrontier.3.desc
-#	picture = GFX_evt_news_room
-#	location = root
-#	auto_opens = yes
-#
-#	is_triggered_only = yes
-	
-#	immediate = {
-#		set_global_flag = efftc2_3_global
-#		set_planet_flag = tau_ceti_ii_2a3
-#	}
-#	
-#	option = {
-#		ai_chance = {
-#			factor = 90
-#		}
-#		name = elitefinalfrontier.3.a
-#	}
-#	
-#	option = {
-#		ai_chance = {
-#			factor = 10
-#		}
-#		name = elitefinalfrontier.3.b
-#	}
-#}
-
-# country_event = {
-# 	id = elitefinalfrontier.4
-# 	title = elitefinalfrontier.4.name
-# 	desc = elitefinalfrontier.4.desc
-# 	picture = GFX_evt_news_room
-# 	location = root
-# 	auto_opens = yes
-
-# 	is_triggered_only = yes
-	
-# 	immediate = {
-# 		set_global_flag = efftc2_4_global
-# 		set_planet_flag = tau_ceti_ii_2a4
-# 	}
-	
-# 	option = {
-# 		ai_chance = {
-# 			factor = 90
-# 		}
-# 		name = elitefinalfrontier.4.a
-# 	}
-	
-# 	option = {
-# 		ai_chance = {
-# 			factor = 10
-# 		}
-# 		name = elitefinalfrontier.4.b
-# 	}
-# }
-
-#Forbidden Planet event
- country_event = {
- 	id = elitefinalfrontier.42
- 	title = elitefinalfrontier.42.name
- 	desc = elitefinalfrontier.42.desc
- 	picture = GFX_evt_ship_in_orbit_2
- 	location = root
- 	auto_opens = yes
-	
- 	pre_triggers = {
- 		has_planet_flag = planet_forbidden
- 	}
-
- 	is_triggered_only = yes
-	
- 	immediate = {
- 		set_global_flag = forbidden1
- 		set_planet_flag = planet_forbidden1
- 	}
-	
- 	option = {
- 		name = elitefinalfrontier.42.a
- 		hidden_effect = { 
- 			country_event = { id = elitefinalfrontier.43 days = 7 } 
- 		}
- 	}
-	
- 	option = {
- 		name = elitefinalfrontier.42.b
- 	}
- }
- country_event = {
- 	id = elitefinalfrontier.43
- 	title = elitefinalfrontier.43.name
- 	desc = elitefinalfrontier.43.desc
- 	picture = GFX_evt_crashed_station
- 	location = root
- 	auto_opens = yes
-	
- 	is_triggered_only = yes
-	
- 	option = {
- 		name = elitefinalfrontier.43.a
- 		hidden_effect = { 
- 			country_event = { id = elitefinalfrontier.44 } 
- 		}
- 	}
- 	option = {
- 		name = elitefinalfrontier.43.b
- 	}
- }
- country_event = {
- 	id = elitefinalfrontier.44
- 	title = elitefinalfrontier.44.name
- 	desc = elitefinalfrontier.44.desc
- 	picture = GFX_evt_desert
- 	location = root
- 	auto_opens = yes
-
- 	is_triggered_only = yes
-	
- 	option = {
- 		name = elitefinalfrontier.44.a
- 		hidden_effect = { 
- 			country_event = { id = elitefinalfrontier.45 } 
- 		}
- 	}
- 	option = {
- 		name = elitefinalfrontier.44.b
- 	}
- }
- country_event = {
- 	id = elitefinalfrontier.45
- 	title = elitefinalfrontier.45.name
- 	desc = elitefinalfrontier.45.desc
- 	picture = GFX_evt_desert
- 	location = root
- 	auto_opens = yes
-
- 	is_triggered_only = yes
-
- 	option = {
- 		name = elitefinalfrontier.45.a
- 		hidden_effect = { 
-			country_event = { id = elitefinalfrontier.46 } 
-		}
- 	}
- }
- country_event = {
-	id = elitefinalfrontier.46
-	title = elitefinalfrontier.46.name
-	desc = elitefinalfrontier.46.desc
-	picture = GFX_evt_desert
-	location = root
-	auto_opens = yes
-
-	is_triggered_only = yes
-   
-	option = {
-		name = elitefinalfrontier.46.a
-		hidden_effect = { 
-			country_event = { id = elitefinalfrontier.47 } 
-		}
-	}
-	option = {
-		name = elitefinalfrontier.46.b
-	}
-}
-country_event = {
-	id = elitefinalfrontier.47
-	title = elitefinalfrontier.47.name
-	desc = elitefinalfrontier.47.desc
-	picture = GFX_evt_desert
-	location = root
-	auto_opens = yes
-
-	is_triggered_only = yes
-   
-	option = {
-		name = elitefinalfrontier.47.a
-		hidden_effect = { 
-			country_event = { id = elitefinalfrontier.48 } 
-		}
-	}
-	option = {
-		name = elitefinalfrontier.47.b
 	}
 }

@@ -1,0 +1,9 @@
+# Coriolis
+animation = {
+	name = "eff_fedimp_01_coriolis_spin"
+	file = "eff_fedimp_01_coriolis_spin.anim"
+}
+animation = {
+	name = "eff_fedimp_01_dodo_spin"
+	file = "eff_fedimp_01_dodo_spin.anim"
+}

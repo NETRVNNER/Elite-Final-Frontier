@@ -11,15 +11,15 @@
 		portrait="human"
 		species_name=
 		{
-			key="PRESCRIPTED_species_name_humans1"
+			key="Federal"
 		}
 		species_plural=
 		{
-			key="PRESCRIPTED_species_plural_humans1"
+			key="Federal"
 		}
 		species_adjective=
 		{
-			key="PRESCRIPTED_species_adjective_humans1"
+			key="Federal"
 		}
 		species_bio="After the Third World War, the remaining nations united under the banner of the Federation. With the rise of massive corporations, the discovery of the first fossils on Mars, and the invention of Li Qin Jao's hyperdrive, the 22nd century's massive land-grab would begin."
 		name_list="HUMAN1"
@@ -68,8 +68,9 @@
 	{
 		key="NAME_Sol"
 	}
-	initializer="eff_sol_initializer"
-	graphical_culture="mammalian_01"
+	#initializer="eff_sol_initializer"
+	initializer=""
+	graphical_culture="eff_fedimp_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag=
 	{
@@ -210,8 +211,9 @@
 		key="Achenar"
 		literal=yes
 	}
-	initializer="eff_achenar_system_initializer"
-	graphical_culture="reptilian_01"
+	#initializer="eff_achenar_system_initializer"
+	initializer=""
+	graphical_culture="eff_fedimp_01"
 	city_graphical_culture="reptilian_01"
 	empire_flag=
 	{

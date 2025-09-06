@@ -1,0 +1,170 @@
+### ALL SHIPS ###
+
+
+objectTypes = {
+
+# FRAME #
+
+	pdxmesh = {
+		name = "eff_fedimp_01_empty_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_invis.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			texture_diffuse = "nodiffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+		}
+	}
+
+# CORVETTE #
+
+	# COBRA Mk I #
+	pdxmesh = {
+		name = "eff_fedimp_01_cobramk1_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_cobramk1.mesh"
+		scale = 2.0
+	}
+	
+# FRIGATE #
+
+	# COBRA Mk III #
+	pdxmesh = {
+		name = "eff_fedimp_01_cobramk3_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_cobramk3.mesh"
+		scale = 2.0
+	}
+	
+# DESTROYER #
+	
+	# ADDER #
+	pdxmesh = {
+		name = "eff_fedimp_01_adder_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_adder.mesh"
+		scale = 2.0
+	}
+	
+	# VIPER #
+	pdxmesh = {
+		name = "eff_fedimp_01_viper_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_viper.mesh"
+		scale = 2.0
+	}
+	
+	# MAMBA #
+	pdxmesh = {
+		name = "eff_fedimp_01_mamba_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_mamba.mesh"
+		scale = 2.0
+	}
+	
+# CRUISER #
+
+	# GECKO #
+	pdxmesh = {
+		name = "eff_fedimp_01_gecko_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_gecko.mesh"
+		scale = 2.00
+	}
+	
+	# FER DE LANCE #
+	pdxmesh = {
+		name = "eff_fedimp_01_ferdelan_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_ferdelan.mesh"
+		scale = 2.00
+	}
+	
+	# KRAIT #
+	pdxmesh = {
+		name = "eff_fedimp_01_krait_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_krait.mesh"	
+		scale = 2.00
+	}
+	
+# BATTLESHIP #
+	
+	# ANACONDA #
+	pdxmesh = {
+		name = "eff_fedimp_01_anaconda_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_anaconda.mesh"
+		scale = 2.00
+	}
+	
+	# BOA #
+	pdxmesh = {
+		name = "eff_fedimp_01_boa_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_boa.mesh"	
+		scale = 2.00
+	}
+	
+	# PYTHON #
+	pdxmesh = {
+		name = "eff_fedimp_01_python_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_python.mesh"
+		scale = 2.00
+	}
+	
+# TITAN #
+	
+	# ANACONDA #
+
+# STRIKE CRAFT #
+
+	# SIDEWINDER #
+	pdxmesh = {
+		name = "eff_fedimp_01_sidewinder_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_sidewinder.mesh"
+		scale = 0.1
+	}
+	
+	# WORM #
+	pdxmesh = {
+		name = "eff_fedimp_01_worm_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_worm.mesh"
+		scale = 0.1
+	}
+
+# CIVLIAN
+
+	# ASP Mk II #
+	pdxmesh = {
+		name = "eff_fedimp_01_asp2_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_asp2.mesh"
+		scale = 1.50
+	}
+	
+	# TRANSPORTER #
+	pdxmesh = {
+		name = "eff_fedimp_01_transport_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_trans.mesh"
+		scale = 1.50
+	}
+	
+	# MORAY #
+	pdxmesh = {
+		name = "eff_fedimp_01_moray_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_moray.mesh"
+		scale = 1.50
+	}
+	
+# STATIONS #
+
+
+	### DODECAHEDRON ###
+
+	pdxmesh = {
+		name = "eff_fedimp_01_dodo_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_dodo.mesh"
+		scale = 1.00
+		animation = { id = "idle"	type = "eff_fedimp_01_dodo_spin"}
+	}
+
+	### CORIOLIS ###
+
+	pdxmesh = {
+		name = "eff_fedimp_01_coriolis_mesh"
+		file = "gfx/models/ships/eff_fedimp_01/eff_fedimp_01_coriolis.mesh"
+		scale = 3.00
+		animation = { id = "idle"	type = "eff_fedimp_01_coriolis_spin"}
+	}
+}
