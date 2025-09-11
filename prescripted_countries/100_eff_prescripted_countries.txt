@@ -1,4 +1,4 @@
-"Federation"=
+eff_federation=
 {
 	key="Federation"
 	ship_prefix=
@@ -53,11 +53,6 @@
 		}
 	}
 	authority="auth_democratic"
-	flags=
-	{
-		"eff_federation"
-		"custom_start_screen"
-	}
 	government="gov_direct_democracy"
 	planet_name=
 	{
@@ -68,8 +63,8 @@
 	{
 		key="NAME_Sol"
 	}
-	#initializer="eff_sol_initializer"
-	initializer=""
+	initializer="eff_sol_initializer"
+	#initializer=""
 	graphical_culture="eff_fedimp_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag=
@@ -137,9 +132,11 @@
 		"civic_meritocracy"
 		"civic_cutthroat_politics"
 	}
+	flags = { empire_fed custom_start_screen }
 	origin="eff_origin_federal_ascension"
 }
-"Empire"=
+
+eff_empire=
 {
 	key="Empire"
 	ship_prefix=
@@ -194,11 +191,6 @@
 		}
 	}
 	authority="auth_imperial"
-	flags=
-	{
-		"eff_empire"
-		"custom_start_screen"
-	}
 	government="gov_feudal_empire"
 	planet_name=
 	{
@@ -211,8 +203,8 @@
 		key="Achenar"
 		literal=yes
 	}
-	#initializer="eff_achenar_system_initializer"
-	initializer=""
+	initializer="eff_achenar_system_initializer"
+	#initializer=""
 	graphical_culture="eff_fedimp_01"
 	city_graphical_culture="reptilian_01"
 	empire_flag=
@@ -265,5 +257,6 @@
 		"civic_aristocratic_elite"
 		"civic_feudal_realm"
 	}
+	flags = { empire_imp custom_start_screen }
 	origin="eff_origin_imperial_pride"
 }

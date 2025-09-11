@@ -27,6 +27,9 @@ eff_origin_federal_ascension = {
 		planet_structures_cost_mult = 0.15
 		planet_structures_upkeep_mult = -0.1
 	}
+	
+	flags = { empire_fed custom_start_screen }
+	
 }
 
 eff_origin_imperial_pride = {
@@ -49,7 +52,7 @@ eff_origin_imperial_pride = {
 	description = eff_origin_imperial_pride_effects
 
 	modifier = {
-	#	planet_jobs_produces_mult = -0.15
+	#	planet_jobs_produces_mult = -0.15 # I know this is a mess
 		planet_jobs_upkeep_mult = 0.2
 		bonus_pop_growth_mult = -0.5
 	#	pop_growth_speed_reduction = 0.5 # DEPRECATED as of v4.0 #
@@ -58,12 +61,13 @@ eff_origin_imperial_pride = {
 	#	country_base_food_produces_add = -15
 	#	country_base_energy_produces_add = -25
 	#	planet_buildings_energy_upkeep_mult = 0.1
-	#	planet_pops_energy_upkeep_mult = 0.3
-		planet_pops_trade_upkeep_mult = 0.3
+		planet_pops_energy_upkeep_mult = 0.3 #reintroduced with EFFv1.5.1 for backwards compatibility
+	#	planet_pops_trade_upkeep_mult = 0.3  #Introduced with v4.0 but not backwards compatible.
 		country_cost_mult = 0.3
 	#	ships_upkeep_mult = 0.05
 	#	planet_structures_upkeep_mult = 0.05
 	}
+	flags = { empire_imp custom_start_screen }
 }
 eff_origin_federal_ascension_hardcore = {
 	is_origin = yes
@@ -126,6 +130,8 @@ eff_origin_imperial_pride_hardcore = {
 		ships_upkeep_mult = 0.07
 		planet_structures_upkeep_mult = 0.07
 	}
+	
+		flags = { empire_fed custom_start_screen }
 	
 	description = eff_origin_imperial_pride_effects
 }

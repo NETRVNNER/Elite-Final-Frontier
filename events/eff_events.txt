@@ -1,114 +1,255 @@
+#As of v4.0 all custom events here are broken. Flags only work for certain files, such as the origins.
+#Due to this I've commented out all these events and development of events will be on hiatus until further notice.
+
 #Pioneer Peril event, challenging Tau Ceti II
 
-namespace = elitefinalfrontier
+# namespace = elitefinalfrontier
 
 #Pioneer Peril: Tau Ceti Hostile Wildlife event
-planet_event = {
-	id = elitefinalfrontier.1
-	title = elitefinalfrontier.1.name
-	desc = elitefinalfrontier.1.desc
-	picture = GFX_evt_savannah
-	location = root
-	auto_opens = yes
+# planet_event = {
+#	id = elitefinalfrontier.1
+#	title = elitefinalfrontier.1.name
+#	desc = elitefinalfrontier.1.desc
+#	picture = GFX_evt_savannah
+#	location = root
+#	auto_opens = yes
+#	is_triggered_only = yes
 
-	pre_triggers = {
-		has_owner = yes
-		is_homeworld = no
-		original_owner = yes
-		has_ground_combat = no
-		is_capital = no
-		is_occupied_flag = no
-	}
+	#pre_triggers = {
+	#	has_owner = yes
+	#	is_homeworld = no
+	#	original_owner = yes
+	#	has_ground_combat = no
+	#	is_capital = no
+	#	is_occupied_flag = no
+	#}
 
-	trigger = {
-		owner = {
-			NOT = { has_country_flag = eff_empire }
-			has_country_flag = "eff_federation"
-		}
-		NOR = {
-			has_global_flag = tc1_global
-			has_global_flag = tc2_global
-		}
-	}
+#	trigger = {
+#		owner = {
+#			has_country_flag = empire_fed
+#			NOT = { has_country_flag = empire_fed }
+#		}
+#		NOR = {
+#			has_global_flag = tc1_global
+#			has_global_flag = tc2_global
+#		}
+#	}
 	
-	is_triggered_only = yes
+
 	
-	immediate = {
-		set_global_flag = tc1_global
-		add_blocker = {
-			type = d_dangerous_wildlife_blocker
-			blocked_deposit = random
-		}
-		add_modifier = {
-			modifier = "dangerous_wildlife"
-			days = -1
-		}
-	}
+#	immediate = {
+#		set_global_flag = tc1_global
+#		add_blocker = {
+#			type = d_dangerous_wildlife_blocker
+#			blocked_deposit = random
+#		}
+#		add_modifier = {
+#			modifier = "dangerous_wildlife"
+#			days = -1
+#		}
+#	}
 	
-	option = {
-		name = elitefinalfrontier.1.a
-		custom_tooltip = elitefinalfrontier.1.a.tooltip
-		hidden_effect = { 
-			planet_owner = {
-				country_event = { id = elitefinalfrontier.2 days = 300 } 
-			}
-		}
-	}
-}
+#	option = {
+#		name = elitefinalfrontier.1.a
+#		custom_tooltip = elitefinalfrontier.1.a.tooltip
+#		hidden_effect = { 
+#			planet_owner = {
+#				country_event = { id = elitefinalfrontier.2 days = 300 } 
+#			}
+#		}
+#	}
+#}
 
 #Tau Ceti, James Taylor introduction event, "Aggressive Negotiations"
 
-country_event = {
-	id = elitefinalfrontier.2
-	title = elitefinalfrontier.2.name
-	desc = elitefinalfrontier.2.desc
-	picture = GFX_evt_savannah
-	location = root
-	auto_opens = yes
+#country_event = {
+#	id = elitefinalfrontier.2
+#	title = elitefinalfrontier.2.name
+#	desc = elitefinalfrontier.2.desc
+#	picture = GFX_evt_savannah
+#	location = root
+#	auto_opens = yes
 	
-	trigger = {
-		owner = {
-			NOT = { has_country_flag = eff_empire }
-			has_country_flag = "eff_federation"
-		}
-		has_global_flag = tc1_global
-		NOR = {
-			has_global_flag = tc2_global
-		}
-	}
+#	trigger = {
+#		owner = {
+#			NOT = { has_country_flag = empire_imp }
+#			has_country_flag = empire_fed
+#		}
+#		has_global_flag = tc1_global
+#		NOR = {
+#			has_global_flag = tc2_global
+#		}
+#	}
 
-	is_triggered_only = yes
+#	is_triggered_only = yes
 	
-	immediate = {
-			set_global_flag = tc2_global
+#	immediate = {
+#			set_global_flag = tc2_global
 			
-	}
-		option = {
-			name = elitefinalfrontier.2.a
-			ai_chance = {
-				factor = 90
-			}
-			custom_tooltip = elitefinalfrontier.2.a.tooltip
-			hidden_effect = { 
-				create_leader = {
-					name = "John Taylor"
-					gender = male
-					type = governor
-					class = official
-					species = root
-				}
-				country_event = { id = elitefinalfrontier.3 days = 300 } 
-			}
-		}
-	option = {
-		name = elitefinalfrontier.2.b
-		ai_chance = {
-			factor = 10
-		}
-		owner = {
-			add_resource = {
-				unity = -100
-			}
-		}
-	}
-}
+#	}
+#		option = {
+#			name = elitefinalfrontier.2.a
+#			ai_chance = {
+#				factor = 90
+#			}
+#			custom_tooltip = elitefinalfrontier.2.a.tooltip
+#			hidden_effect = { 
+#				create_leader = {
+#					name = "John Taylor"
+#					gender = male
+#					type = governor
+#					class = official
+#					species = root
+#				}
+				#country_event = { id = elitefinalfrontier.3 days = 300 } 
+#			}
+#		}
+#	option = {
+#		name = elitefinalfrontier.2.b
+#		ai_chance = {
+#			factor = 10
+#		}
+#		owner = {
+#			add_resource = {
+#				unity = -100
+#			}
+#		}
+#	}
+#}
+#Terraforming Mars
+# country_event = {
+#    id = elitefinalfrontier.100
+#    title = elitefinalfrontier.100.name
+#    desc = elitefinalfrontier.100.desc
+#    picture = GFX_evt_microscopic_life
+#    show_sound = event_laboratory_sound
+#    event_chain = terraforming_mars_chain
+#
+#    trigger = {
+#        NOR = {
+#            has_country_flag = empire_imp
+		#	has_country_flag = terraforming_mars
+		#	has_country_flag = completed_terraforming_mars
+        #    has_ethic = ethic_gestalt_consciousness
+#        }
+#       has_country_flag = empire_fed
+#    }
+
+#    mean_time_to_happen = {
+#        days = 1
+#    }
+
+#    immediate = {
+#        set_country_flag = terraforming_mars
+#        begin_event_chain = {
+#            event_chain = terraforming_mars_chain
+#            target = ROOT
+#        }
+#    }
+
+#    option = {
+#        name = elitefinalfrontier.100.a
+#        tooltip = {
+#            begin_event_chain = {
+#                event_chain = terraforming_mars_chain
+#                target = ROOT
+#            }
+#        }
+#    }
+
+#    option = {
+#        name = elitefinalfrontier.100.b
+#        add_monthly_resource_mult = {
+#            resource = energy
+#            value = 10
+#            min = 1
+#            max = 20
+#        }
+#        hidden_effect = {
+#            end_event_chain = terraforming_mars_chain
+#        }
+#    }
+#}
+
+# Terraforming Mars Complete
+#country_event = {
+#    id = elitefinalfrontier.101
+#    title = elitefinalfrontier.101.name
+#    desc = elitefinalfrontier.101.desc
+#   picture = 
+#   show_sound = 
+#    event_chain = terraforming_mars_chain
+#    is_triggered_only = yes
+
+#    trigger = {
+#        has_completed_event_chain_counter = {
+#            event_chain = terraforming_mars_chain
+#            counter = "terraformed_mars"
+#        }
+        #NOT = { has_country flag = completed_terraforming_mars }
+#    }
+
+   # immediate = {
+    #    set_country_flag = completed_terraforming_mars
+  #  }
+
+#    option = {
+#        name = "EXCELLENT"
+#        end_event_chain = terraforming_mars_chain
+		#remove_country_flag = terraforming_mars
+#        add_monthly_resource_mult = {
+#            resource = society_research
+#			value = @tier4researchreward
+#			min = @tier4researchmin
+#			max = @tier4researchmax
+#		}
+#		add_monthly_resource_mult = {
+#			resource = unity
+#			value = 10
+#			min = 5
+#			max = 20
+#		}
+#    }
+#}
+
+#Terraforming Mars (HIDDEN)
+# planet_event = {
+#	id = elitefinalfrontier.102
+#	hide_window = yes
+
+#	is_triggered_only = yes
+
+#	trigger = {
+#		owner = { has_event_chain = terraforming_mars_chain }
+#		this = {
+#			AND = {
+#				has_planet_flag = planet_mars
+#				OR = {
+#					has_planet_flag = planet_mars 
+#					is_planet_class = pc_desert
+#					is_planet_class = pc_tropical
+#					is_planet_class = pc_arid
+#					is_planet_class = pc_continental
+#					is_planet_class = pc_ocean
+#					is_planet_class = pc_tundra
+#					is_planet_class = pc_arctic
+#					is_planet_class = pc_alpine
+#					is_planet_class = pc_savannah
+#					is_planet_class = pc_gaia
+#				}
+#			}
+#			
+#		}
+#	}
+
+#	immediate = {
+#		owner = {
+#			add_event_chain_counter = {
+#				event_chain = terraforming_mars_chain
+#				counter = mars_terraformed
+#				amount = 1
+#			}
+#			country_event = { id = elitefinalfrontier.101 }
+#		}
+#	}
+#}

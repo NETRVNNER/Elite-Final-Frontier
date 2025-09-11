@@ -1315,6 +1315,16 @@ entity = {
 	state = { name = "idle"	animation = "idle" animation_blend_time = 0 looping = yes }
 }
 
+entity = {
+	name = "eff_fedimp_01_starbase_outpost_construction_entity"
+	pdxmesh = "eff_fedimp_01_dodo_mesh"
+	scale = 1.0
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+	event = { trigger_once = yes sound = { soundeffect = "place_construction" } } }
+}
+
 ##########
 # STARPORT
 ##########
@@ -1387,7 +1397,7 @@ entity = {
 
 entity = {
 	name = "eff_fedimp_01_starbase_starhold_construction_entity"
-	pdxmesh = "eff_fedimp_01_empty_mesh"
+	pdxmesh = "eff_fedimp_01_coriolis_mesh"
 	scale = 1.0
 
 	default_state = "idle"

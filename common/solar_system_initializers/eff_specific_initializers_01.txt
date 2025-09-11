@@ -115,7 +115,7 @@ eff_sol_initializer = {
 		size = 13
 		has_ring = no
 		entity = "barren_planet_mars_entity"
-		flags = { planet_mars }
+		flag = planet_mars
 
 		init_effect = {
 			add_modifier = {
@@ -1543,7 +1543,7 @@ eff_alioth_system_initializer = {
 			}
 		}
 		moon = {
-			name = "Turner's World"
+			name = "Fruitcake"
 			class = "pc_arid"
 			orbit_distance = 2.5
 			orbit_angle = { min = 90 max = 270 }

@@ -1,0 +1,44 @@
+namespace = efftimeline
+
+event = {
+	id = efftimeline.0
+	hide_window = yes
+	is_triggered_only = yes
+
+	# trigger = {
+	# 	is_country_type = default
+	# }
+
+	immediate = {
+		## Add Origins to Timeline ##
+		every_playable_country = {
+			limit = {
+				is_country_type = default
+			}
+			country_event = { id = timeline.1 }
+		}
+	}
+}
+
+country_event = {
+	id = efftimeline.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+
+		switch = {
+			origin_federal_ascension = {
+				add_timeline_event = {
+					type = timeline_origin
+					override_tooltip = "origin_federal_ascension_desc"
+					override_text = { "text:origin_post_apocalyptic" }
+					override_texture = { "background:GFX_origin_post_apocalyptic" }
+					override_id = timeline_origin_federal_ascension
+				}
+			}
+		add_timeline_event = {
+			type = timeline_event_year
+		}
+	}
+}
