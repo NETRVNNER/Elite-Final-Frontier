@@ -179,7 +179,7 @@ EFFIMP = {
 		names2 = {
 			weight = 10
 				first_names_male = {
-					Henson Saik Trasken Hennick Lucius Anders Hender Trasken Olban Gaylen Atticus Hesketh Hengish Baylor Otto Harold Hector Hadrian Aelius Cassius Lysander Quintus Leander Atilla Titus Alaric Thaddeus Caelum Antonio Augustus Claudius Reginald Edmund Alfred Cedric Winston Percival Leo Leopold Maximus Agrippina Marcellus Callum Nikos Dimitrios Leonidas Andreas Perciles Jordi Enric GuillemOriol Carles Pere Aelfric Eadgyth Beornwulf Wulfric Leofrick Ealdred Wulfgar Ealdgyth Eadric Wynflaed Godric Eoin Lachlan Ruairidh Fergus Hamish Olaf Erik Gunnar Knut Gaetano Alejandro Diego Javier Mateo Guillermo Francisco Alberto Luis Konrad Wilhelm
+					Henson Saik Trasken Hennick Lucius Anders Hender Trasken Olban Gaylen Atticus Hesketh Hengish Baylor Otto Harold Hector Hadrian Aelius Cassius Lysander Quintus Leander Atilla Titus Alaric Thaddeus Caelum Antonio Augustus Claudius Reginald Edmund Alfred Cedric Winston Percival Leo Leopold Maximus Agrippina Marcellus Callum Nikos Dimitrios Leonidas Andreas Perciles Jordi Enric Guillem Oriol Carles Pere Aelfric Eadgyth Beornwulf Wulfric Leofrick Ealdred Wulfgar Ealdgyth Eadric Wynflaed Godric Eoin Lachlan Ruairidh Fergus Hamish Olaf Erik Gunnar Knut Gaetano Alejandro Diego Javier Mateo Guillermo Francisco Alberto Luis Konrad Wilhelm
 				}
 				first_names_female = {
 					Arissa Lucretia Aisling Astrid Seraphina Ophelia Isolde Calista Rowena Valeria Aveline Eva Coriander Viola Greta Isabella Anneliese Elsbeth Brigitta Gertrude Camille Claudette Natalya Dmitri Irina Anya Yelena Aurelia Livia Aemilia Beatrice Eleanor Matilda Agatha Edith Prudence Kassandra Iliana Athena Gabriela Laia Alba Sílvia Isla Siobhan Zemina Hilda Catalina Sofia Elena Valentina
